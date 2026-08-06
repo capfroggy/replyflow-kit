@@ -13,6 +13,7 @@ paid product files are not published here.
 - Free script sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.1-free-sample/sample/
 - Free generator: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.1-free-sample/follow-up-message-generator/
 - Spanish WhatsApp offer: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.1-free-sample/es/kit-whatsapp-negocios/
+- Feedback discussion: https://github.com/capfroggy/replyflow-kit/discussions/1
 
 ## Public offers
 
