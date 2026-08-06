@@ -3,9 +3,15 @@ const PAYPAL_HANDLE = "@AMEZQUITASALINAS";
 
 function paypalUrl(itemName, amount, cancelPath = "/") {
   const origin = window.location.origin;
+  const pathParts = window.location.pathname.split("/").filter(Boolean);
+  const isRawGitHack =
+    window.location.hostname === "raw.githack.com" ||
+    window.location.hostname === "rawcdn.githack.com";
   const basePath = window.location.hostname.endsWith("github.io")
-    ? `/${window.location.pathname.split("/").filter(Boolean)[0] || ""}`
-    : "";
+    ? `/${pathParts[0] || ""}`
+    : isRawGitHack
+      ? `/${pathParts.slice(0, 3).join("/")}`
+      : "";
   const normalizedCancel = cancelPath.startsWith("/") ? cancelPath : `/${cancelPath}`;
   const params = new URLSearchParams({
     cmd: "_xclick",
