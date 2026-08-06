@@ -51,6 +51,9 @@ https://github.com/capfroggy/replyflow-kit/issues/14
 WhatsApp bot classifier sample:
 https://capfroggy.github.io/replyflow-kit/services/whatsapp-bot-classifier-sample/
 
+WhatsApp bot classifier issue:
+https://github.com/capfroggy/replyflow-kit/issues/15
+
 AI lead automation service:
 https://capfroggy.github.io/replyflow-kit/services/ai-lead-follow-up-automation/
 
