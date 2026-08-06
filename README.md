@@ -9,12 +9,14 @@ paid product files are not published here.
 
 ## Quick links
 
-- Primary public site: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.7-resource-library/
-- Free script sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.7-resource-library/sample/
-- Free generator: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.7-resource-library/follow-up-message-generator/
-- Template library: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.7-resource-library/resources/
-- Niche samples: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.7-resource-library/niches/
-- Spanish WhatsApp offer: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.7-resource-library/es/kit-whatsapp-negocios/
+- Primary public site: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.8-service-offers/
+- Free script sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.8-service-offers/sample/
+- Free generator: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.8-service-offers/follow-up-message-generator/
+- Template library: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.8-service-offers/resources/
+- Services: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.8-service-offers/services/
+- Email setup sample deliverable: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.8-service-offers/services/email-marketing-setup-sample/
+- Niche samples: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.8-service-offers/niches/
+- Spanish WhatsApp offer: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.8-service-offers/es/kit-whatsapp-negocios/
 - Feedback discussion: https://github.com/capfroggy/replyflow-kit/discussions/1
 - Start here: https://github.com/capfroggy/replyflow-kit/blob/main/START-HERE.md
 - Share copy: https://github.com/capfroggy/replyflow-kit/blob/main/SHARE-COPY.md
@@ -28,6 +30,7 @@ Preview image: `assets/replyflow-preview.jpg`
 - Free niche samples: cleaning, plumbing, HVAC, roofing, lawn care, and invoice reminders
 - ReplyFlow Kit: $19, with dedicated cleaning, plumbing, HVAC, roofing, lawn care, and invoice collection packs
 - WhatsApp Follow-up Mini Pack: $9
+- Done-for-you services: $19 to $99 fixed-scope email, CRM, invoice, WhatsApp, and copy deliverables
 - ReplyFlow Custom Setup: $49
 
 ## Payment route
@@ -50,8 +53,8 @@ distribution.
 
 Primary GitHub-backed public URL:
 
-- https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.7-resource-library/
-- https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.7-resource-library/sample/
+- https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.8-service-offers/
+- https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.8-service-offers/sample/
 
 Secondary GitHub Pages URL once Pages finishes processing:
 

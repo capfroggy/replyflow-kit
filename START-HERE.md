@@ -6,19 +6,22 @@ recipes.
 
 ## Useful Free Links
 
-- Public site: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.7-resource-library/
-- Free script sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.7-resource-library/sample/
-- Free generator: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.7-resource-library/follow-up-message-generator/
-- Template library: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.7-resource-library/resources/
-- Niche samples: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.7-resource-library/niches/
-- Spanish WhatsApp offer: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.7-resource-library/es/kit-whatsapp-negocios/
-- Latest release: https://github.com/capfroggy/replyflow-kit/releases/tag/v0.7-resource-library
+- Public site: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.8-service-offers/
+- Free script sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.8-service-offers/sample/
+- Free generator: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.8-service-offers/follow-up-message-generator/
+- Template library: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.8-service-offers/resources/
+- Services: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.8-service-offers/services/
+- Email setup sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.8-service-offers/services/email-marketing-setup-sample/
+- Niche samples: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.8-service-offers/niches/
+- Spanish WhatsApp offer: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.8-service-offers/es/kit-whatsapp-negocios/
+- Latest release: https://github.com/capfroggy/replyflow-kit/releases/tag/v0.8-service-offers
 - Feedback discussion: https://github.com/capfroggy/replyflow-kit/discussions/1
 
 ## Paid Offers
 
 - ReplyFlow Kit: $19, with cleaning, plumbing, HVAC, roofing, lawn care, and invoice collection packs
 - WhatsApp Follow-up Mini Pack: $9
+- Done-for-you services: $19 to $99 fixed-scope email, CRM, invoice, WhatsApp, and copy deliverables
 - ReplyFlow Custom Setup: $49
 
 ## Reusable PayPal.Me Links
