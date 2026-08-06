@@ -14,6 +14,8 @@ paid product files are not published here.
 - Free generator: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.3-visual/follow-up-message-generator/
 - Spanish WhatsApp offer: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.3-visual/es/kit-whatsapp-negocios/
 - Feedback discussion: https://github.com/capfroggy/replyflow-kit/discussions/1
+- Start here: https://github.com/capfroggy/replyflow-kit/blob/main/START-HERE.md
+- Share copy: https://github.com/capfroggy/replyflow-kit/blob/main/SHARE-COPY.md
 
 Preview image: `assets/replyflow-preview.jpg`
 
