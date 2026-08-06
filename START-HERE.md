@@ -5,21 +5,22 @@ development, automation, follow-up workflows, and practical AI-assisted tools.
 
 ## Useful Free Links
 
-- Public site: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/
-- Free script sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/sample/
-- Free generator: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/follow-up-message-generator/
-- Template library: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/resources/
-- Services: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/services/
-- Email setup sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/services/email-marketing-setup-sample/
-- CRM audit sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/services/crm-workflow-audit-sample/
-- Invoice workflow sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/services/invoice-reminder-workflow-sample/
-- Google index checker sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/services/google-index-checker-sample/
-- Google Chat to Sheets sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/services/google-chat-sheets-sample/
-- SMS review automation sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/services/sms-review-automation-sample/
+- Public site: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.11-upwork-approved/
+- Free script sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.11-upwork-approved/sample/
+- Free generator: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.11-upwork-approved/follow-up-message-generator/
+- Template library: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.11-upwork-approved/resources/
+- Services: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.11-upwork-approved/services/
+- Email setup sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.11-upwork-approved/services/email-marketing-setup-sample/
+- CRM audit sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.11-upwork-approved/services/crm-workflow-audit-sample/
+- Invoice workflow sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.11-upwork-approved/services/invoice-reminder-workflow-sample/
+- Google index checker sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.11-upwork-approved/services/google-index-checker-sample/
+- Google Chat to Sheets sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.11-upwork-approved/services/google-chat-sheets-sample/
+- SMS review automation sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.11-upwork-approved/services/sms-review-automation-sample/
+- Upwork Project Catalog: https://www.upwork.com/services/product/development-it-a-web-tool-automation-or-landing-page-for-your-business-2085462295735290357?ref=project_share
 - Service request form: https://github.com/capfroggy/replyflow-kit/issues/new?template=service-request.yml
-- Niche samples: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/niches/
-- Spanish WhatsApp offer: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/es/kit-whatsapp-negocios/
-- Latest release: https://github.com/capfroggy/replyflow-kit/releases/tag/v0.10-technical-samples
+- Niche samples: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.11-upwork-approved/niches/
+- Spanish WhatsApp offer: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.11-upwork-approved/es/kit-whatsapp-negocios/
+- Latest release: https://github.com/capfroggy/replyflow-kit/releases/tag/v0.11-upwork-approved
 - Feedback discussion: https://github.com/capfroggy/replyflow-kit/discussions/1
 
 ## Paid Offers
@@ -27,6 +28,7 @@ development, automation, follow-up workflows, and practical AI-assisted tools.
 - ReplyFlow Kit: $19, with cleaning, plumbing, HVAC, roofing, lawn care, and invoice collection packs
 - WhatsApp Follow-up Mini Pack: $9
 - Developer services: $49+ fixed-scope web, automation, integration, workflow, CRM, SMS, Google Workspace, and copy deliverables
+- Upwork Project Catalog: approved packaged service with $19, $49, and $99 tiers
 - ReplyFlow Custom Setup: $49
 
 ## Reusable PayPal.Me Links

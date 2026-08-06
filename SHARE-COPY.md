@@ -17,43 +17,47 @@ It includes:
 - A public template library for invoices, quotes, missed calls, and WhatsApp
 - Niche pages for cleaning, plumbing, HVAC, roofing, lawn care, and invoice reminders
 - A services page for custom development, automation, CRM, workflow, and copy work
+- An approved Upwork Project Catalog service for fixed-scope builds
 - Technical samples for index checking, Google Chat to Sheets, and SMS review automation
 
 Free sample:
-https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/sample/
+https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.11-upwork-approved/sample/
 
 Free generator:
-https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/follow-up-message-generator/
+https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.11-upwork-approved/follow-up-message-generator/
 
 Template library:
-https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/resources/
+https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.11-upwork-approved/resources/
 
 Services:
-https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/services/
+https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.11-upwork-approved/services/
+
+Hire on Upwork:
+https://www.upwork.com/services/product/development-it-a-web-tool-automation-or-landing-page-for-your-business-2085462295735290357?ref=project_share
 
 Request a service:
 https://github.com/capfroggy/replyflow-kit/issues/new?template=service-request.yml
 
 Email setup sample deliverable:
-https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/services/email-marketing-setup-sample/
+https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.11-upwork-approved/services/email-marketing-setup-sample/
 
 CRM audit sample deliverable:
-https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/services/crm-workflow-audit-sample/
+https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.11-upwork-approved/services/crm-workflow-audit-sample/
 
 Invoice workflow sample deliverable:
-https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/services/invoice-reminder-workflow-sample/
+https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.11-upwork-approved/services/invoice-reminder-workflow-sample/
 
 Google index checker sample:
-https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/services/google-index-checker-sample/
+https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.11-upwork-approved/services/google-index-checker-sample/
 
 Google Chat to Sheets sample:
-https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/services/google-chat-sheets-sample/
+https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.11-upwork-approved/services/google-chat-sheets-sample/
 
 SMS review automation sample:
-https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/services/sms-review-automation-sample/
+https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.11-upwork-approved/services/sms-review-automation-sample/
 
 Niche samples:
-https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/niches/
+https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.11-upwork-approved/niches/
 
 ## Freelancer / Upwork developer pitch
 
@@ -66,7 +70,10 @@ handoff notes, and a scope that can be completed without dragging the project
 out.
 
 Relevant sample:
-https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/services/
+https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.11-upwork-approved/services/
+
+Upwork Project Catalog:
+https://www.upwork.com/services/product/development-it-a-web-tool-automation-or-landing-page-for-your-business-2085462295735290357?ref=project_share
 
 I can start with the smallest useful version first, then expand once you see
 that the structure and tone are right.
@@ -78,17 +85,17 @@ Hice una muestra gratis de mensajes de seguimiento para negocios de servicios.
 Incluye respuestas para leads, cotizaciones, facturas pendientes y WhatsApp.
 
 Muestra:
-https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/sample/
+https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.11-upwork-approved/sample/
 
 Generador:
-https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/es/generador-mensajes-seguimiento/
+https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.11-upwork-approved/es/generador-mensajes-seguimiento/
 
 ## Short direct message
 
 Hi {{first_name}}, I made a free follow-up script sample for service businesses.
 Since you work around {{industry}}, I thought you might have a useful opinion:
 
-https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/sample/
+https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.11-upwork-approved/sample/
 
 Would this be useful enough for a business owner to pay $19 for the full kit?
 
@@ -99,18 +106,18 @@ HVAC:
 I made a free set of HVAC follow-up scripts for repair inquiries, estimates,
 tune-up reminders, and open invoices:
 
-https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/niches/hvac-lead-follow-up/
+https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.11-upwork-approved/niches/hvac-lead-follow-up/
 
 Roofing:
 
 I made free roofing follow-up scripts for inspection requests, estimate
 follow-ups, storm leads, and final invoices:
 
-https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/niches/roofing-estimate-follow-up/
+https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.11-upwork-approved/niches/roofing-estimate-follow-up/
 
 Lawn care:
 
 I made free lawn care follow-up scripts for quote requests, recurring service,
 cleanup jobs, and invoice reminders:
 
-https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/niches/lawn-care-follow-up/
+https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.11-upwork-approved/niches/lawn-care-follow-up/
