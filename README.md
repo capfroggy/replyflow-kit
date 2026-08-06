@@ -8,22 +8,24 @@ paid product files are not published here.
 
 ## Quick links
 
-- Primary public site: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.12-pdf-excel-sample/
-- Free script sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.12-pdf-excel-sample/sample/
-- Free generator: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.12-pdf-excel-sample/follow-up-message-generator/
-- Template library: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.12-pdf-excel-sample/resources/
-- Services: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.12-pdf-excel-sample/services/
-- Email setup sample deliverable: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.12-pdf-excel-sample/services/email-marketing-setup-sample/
-- CRM audit sample deliverable: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.12-pdf-excel-sample/services/crm-workflow-audit-sample/
-- Invoice workflow sample deliverable: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.12-pdf-excel-sample/services/invoice-reminder-workflow-sample/
-- Google index checker sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.12-pdf-excel-sample/services/google-index-checker-sample/
-- Google Chat to Sheets sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.12-pdf-excel-sample/services/google-chat-sheets-sample/
-- SMS review automation sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.12-pdf-excel-sample/services/sms-review-automation-sample/
-- PDF statement to Excel sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.12-pdf-excel-sample/services/pdf-bank-statement-excel-sample/
+- Primary public site: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.13-cinematic-scroll-demos/
+- Free script sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.13-cinematic-scroll-demos/sample/
+- Free generator: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.13-cinematic-scroll-demos/follow-up-message-generator/
+- Template library: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.13-cinematic-scroll-demos/resources/
+- Services: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.13-cinematic-scroll-demos/services/
+- Email setup sample deliverable: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.13-cinematic-scroll-demos/services/email-marketing-setup-sample/
+- CRM audit sample deliverable: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.13-cinematic-scroll-demos/services/crm-workflow-audit-sample/
+- Invoice workflow sample deliverable: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.13-cinematic-scroll-demos/services/invoice-reminder-workflow-sample/
+- Google index checker sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.13-cinematic-scroll-demos/services/google-index-checker-sample/
+- Google Chat to Sheets sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.13-cinematic-scroll-demos/services/google-chat-sheets-sample/
+- SMS review automation sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.13-cinematic-scroll-demos/services/sms-review-automation-sample/
+- PDF statement to Excel sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.13-cinematic-scroll-demos/services/pdf-bank-statement-excel-sample/
+- Cinematic scroll demo: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.13-cinematic-scroll-demos/services/cinematic-scroll-demo/
+- Interactive product scroll demo: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.13-cinematic-scroll-demos/services/interactive-product-scroll-demo/
 - Upwork Project Catalog: https://www.upwork.com/services/product/development-it-a-web-tool-automation-or-landing-page-for-your-business-2085462295735290357?ref=project_share
 - Service request form: https://github.com/capfroggy/replyflow-kit/issues/new?template=service-request.yml
-- Niche samples: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.12-pdf-excel-sample/niches/
-- Spanish WhatsApp offer: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.12-pdf-excel-sample/es/kit-whatsapp-negocios/
+- Niche samples: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.13-cinematic-scroll-demos/niches/
+- Spanish WhatsApp offer: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.13-cinematic-scroll-demos/es/kit-whatsapp-negocios/
 - Feedback discussion: https://github.com/capfroggy/replyflow-kit/discussions/1
 - Start here: https://github.com/capfroggy/replyflow-kit/blob/main/START-HERE.md
 - Share copy: https://github.com/capfroggy/replyflow-kit/blob/main/SHARE-COPY.md
@@ -39,6 +41,7 @@ Preview image: `assets/replyflow-preview.jpg`
 - WhatsApp Follow-up Mini Pack: $9
 - Developer services: $49+ fixed-scope web, automation, integration, workflow, CRM, SMS, Google Workspace, and copy deliverables
 - PDF/data extraction workflow: $99+ fixed-scope converter or parser handoff
+- Cinematic landing page: $600 contest/demo target, static page with scroll animation
 - Upwork Project Catalog: approved packaged service with $19, $49, and $99 tiers
 - ReplyFlow Custom Setup: $49
 
@@ -62,8 +65,8 @@ distribution.
 
 Primary GitHub-backed public URL:
 
-- https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.12-pdf-excel-sample/
-- https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.12-pdf-excel-sample/sample/
+- https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.13-cinematic-scroll-demos/
+- https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.13-cinematic-scroll-demos/sample/
 
 Secondary GitHub Pages URL once Pages finishes processing:
 

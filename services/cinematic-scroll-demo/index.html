@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cinematic Scroll Demo | Developer Services</title>
+    <meta
+      name="description"
+      content="A vanilla JavaScript cinematic scroll demo with pinned sections, animated copy, particles, stat counters, and responsive fallbacks."
+    />
+    <meta property="og:title" content="Cinematic Scroll Demo" />
+    <meta
+      property="og:description"
+      content="Static one-page scroll animation demo for premium product and technology storytelling."
+    />
+    <meta property="og:image" content="../../assets/replyflow-preview.jpg" />
+    <link rel="stylesheet" href="../../assets/site.css" />
+    <style>
+      body.demo-page {
+        background: #07090d;
+        color: #f5f7fb;
+      }
+
+      .demo-nav {
+        position: fixed;
+        z-index: 20;
+        top: 16px;
+        left: 50%;
+        width: min(1040px, calc(100% - 32px));
+        transform: translateX(-50%);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        border-radius: 6px;
+        background: rgba(8, 10, 14, 0.72);
+        backdrop-filter: blur(18px);
+      }
+
+      .demo-nav .topbar {
+        width: 100%;
+        padding: 14px 18px;
+      }
+
+      .demo-hero,
+      .cinema-panel {
+        position: relative;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        background:
+          linear-gradient(90deg, rgba(7, 9, 13, 0.96), rgba(7, 9, 13, 0.74) 44%, rgba(7, 9, 13, 0.3)),
+          url("../../assets/replyflow-preview.jpg") center right / cover no-repeat;
+      }
+
+      .cinema-panel {
+        position: sticky;
+        top: 0;
+        border-top: 1px solid rgba(255, 255, 255, 0.12);
+      }
+
+      .cinema-panel:nth-child(2n) {
+        background:
+          linear-gradient(90deg, rgba(7, 9, 13, 0.95), rgba(21, 44, 48, 0.76) 52%, rgba(7, 9, 13, 0.36)),
+          url("../../assets/replyflow-preview.jpg") center / cover no-repeat;
+      }
+
+      .demo-content {
+        position: relative;
+        z-index: 2;
+        width: min(1040px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 128px 0 86px;
+      }
+
+      .demo-eyebrow {
+        margin: 0 0 16px;
+        color: #80e0d8;
+        font-size: 0.76rem;
+        font-weight: 900;
+        text-transform: uppercase;
+      }
+
+      .demo-title {
+        max-width: 780px;
+        margin: 0;
+        font-size: clamp(3rem, 8vw, 7rem);
+        line-height: 0.92;
+      }
+
+      .demo-copy {
+        max-width: 650px;
+        margin-top: 24px;
+        color: rgba(245, 247, 251, 0.78);
+        font-size: 1.1rem;
+        line-height: 1.62;
+      }
+
+      .demo-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 34px;
+      }
+
+      .demo-button {
+        min-height: 46px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid rgba(255, 255, 255, 0.22);
+        border-radius: 6px;
+        padding: 0 18px;
+        background: rgba(255, 255, 255, 0.1);
+        color: #fff;
+        font-weight: 900;
+      }
+
+      .demo-button.primary {
+        background: #1ea39b;
+        border-color: #1ea39b;
+      }
+
+      .particle-layer {
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+        opacity: 0.55;
+      }
+
+      .reveal-line {
+        display: block;
+        opacity: 0;
+        transform: translateY(28px);
+      }
+
+      .reveal-ready .reveal-line {
+        animation: revealLine 720ms ease forwards;
+      }
+
+      .reveal-ready .reveal-line:nth-child(2) {
+        animation-delay: 110ms;
+      }
+
+      .reveal-ready .reveal-line:nth-child(3) {
+        animation-delay: 220ms;
+      }
+
+      .stat-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 12px;
+        max-width: 760px;
+        margin-top: 34px;
+      }
+
+      .stat {
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        border-radius: 6px;
+        padding: 20px;
+        background: rgba(255, 255, 255, 0.08);
+      }
+
+      .stat strong {
+        display: block;
+        color: #ffd277;
+        font-size: 2rem;
+      }
+
+      .stat span {
+        color: rgba(245, 247, 251, 0.76);
+        font-size: 0.86rem;
+      }
+
+      @keyframes revealLine {
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .cinema-panel {
+          position: relative;
+        }
+
+        .reveal-line {
+          opacity: 1;
+          transform: none;
+        }
+      }
+
+      @media (max-width: 720px) {
+        .demo-nav {
+          position: absolute;
+        }
+
+        .demo-nav .topbar {
+          align-items: flex-start;
+          flex-direction: column;
+        }
+
+        .demo-title {
+          font-size: clamp(2.55rem, 15vw, 4.2rem);
+        }
+
+        .stat-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .demo-button {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body class="demo-page">
+    <header class="demo-nav">
+      <div class="topbar">
+        <a class="brand" href="../../">ReplyFlow Kit</a>
+        <nav class="nav" aria-label="Demo navigation">
+          <a href="#signal">Signal</a>
+          <a href="#motion">Motion</a>
+          <a href="#handoff">Handoff</a>
+          <a href="../">Services</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="demo-hero" aria-label="Cinematic scroll demo hero">
+      <canvas class="particle-layer" aria-hidden="true"></canvas>
+      <div class="demo-content reveal-block">
+        <p class="demo-eyebrow">CINEMA demo one</p>
+        <h1 class="demo-title">
+          <span class="reveal-line">Scroll-led</span>
+          <span class="reveal-line">product drama</span>
+          <span class="reveal-line">in static files.</span>
+        </h1>
+        <p class="demo-copy">
+          A one-page proof showing pinned sections, staggered text reveals,
+          interactive particles, responsive layout, and reduced-motion fallback
+          without a page builder.
+        </p>
+        <div class="demo-actions">
+          <a class="demo-button primary" href="https://www.upwork.com/services/product/development-it-a-web-tool-automation-or-landing-page-for-your-business-2085462295735290357?ref=project_share" target="_blank" rel="noreferrer">Hire on Upwork</a>
+          <a class="demo-button" href="../">Back to services</a>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <section class="cinema-panel" id="signal">
+        <div class="demo-content reveal-block">
+          <p class="demo-eyebrow">Pinned section</p>
+          <h2 class="demo-title">
+            <span class="reveal-line">Each chapter</span>
+            <span class="reveal-line">gets room to land.</span>
+          </h2>
+          <p class="demo-copy">
+            The structure is ready for supplied 16:9 loops or fallback images:
+            one visual per section, real HTML text over the media, and clear
+            CTAs that stay readable on mobile.
+          </p>
+        </div>
+      </section>
+
+      <section class="cinema-panel" id="motion">
+        <div class="demo-content reveal-block">
+          <p class="demo-eyebrow">Counters and pacing</p>
+          <h2 class="demo-title">
+            <span class="reveal-line">Motion supports</span>
+            <span class="reveal-line">the story.</span>
+          </h2>
+          <div class="stat-grid" data-counter-grid>
+            <div class="stat"><strong data-count="6">0</strong><span>visual chapters</span></div>
+            <div class="stat"><strong data-count="7">0</strong><span>page sections</span></div>
+            <div class="stat"><strong data-count="3">0</strong><span>second load target</span></div>
+            <div class="stat"><strong data-count="100">0</strong><span>percent static handoff</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cinema-panel" id="handoff">
+        <div class="demo-content reveal-block">
+          <p class="demo-eyebrow">Handoff</p>
+          <h2 class="demo-title">
+            <span class="reveal-line">Built for review,</span>
+            <span class="reveal-line">then asset swap.</span>
+          </h2>
+          <p class="demo-copy">
+            The client can replace copy, images, video URLs, colors, and CTA
+            targets in plain files. No WordPress, no React bundle, and no
+            account access needed for the first review.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      const prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      const revealBlocks = [...document.querySelectorAll(".reveal-block")];
+      const revealObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) entry.target.classList.add("reveal-ready");
+          });
+        },
+        { threshold: 0.35 }
+      );
+      revealBlocks.forEach((block) => revealObserver.observe(block));
+
+      const counters = [...document.querySelectorAll("[data-count]")];
+      const counterObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (!entry.isIntersecting || entry.target.dataset.done) return;
+            entry.target.dataset.done = "true";
+            const target = Number(entry.target.dataset.count || 0);
+            const start = performance.now();
+            const tick = (now) => {
+              const progress = Math.min((now - start) / 900, 1);
+              entry.target.textContent = Math.round(target * progress).toString();
+              if (progress < 1) requestAnimationFrame(tick);
+            };
+            requestAnimationFrame(tick);
+          });
+        },
+        { threshold: 0.7 }
+      );
+      counters.forEach((counter) => counterObserver.observe(counter));
+
+      const canvas = document.querySelector(".particle-layer");
+      const ctx = canvas.getContext("2d");
+      const particles = Array.from({ length: 80 }, () => ({
+        x: Math.random(),
+        y: Math.random(),
+        vx: (Math.random() - 0.5) * 0.18,
+        vy: (Math.random() - 0.5) * 0.18,
+        size: 1 + Math.random() * 2,
+      }));
+      let pointer = { x: 0.5, y: 0.5 };
+
+      function resizeCanvas() {
+        canvas.width = window.innerWidth * devicePixelRatio;
+        canvas.height = window.innerHeight * devicePixelRatio;
+      }
+
+      function drawParticles() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.fillStyle = "rgba(128, 224, 216, 0.74)";
+        particles.forEach((particle) => {
+          const pullX = (pointer.x - particle.x) * 0.0008;
+          const pullY = (pointer.y - particle.y) * 0.0008;
+          particle.vx += pullX;
+          particle.vy += pullY;
+          particle.x = (particle.x + particle.vx + 1) % 1;
+          particle.y = (particle.y + particle.vy + 1) % 1;
+          ctx.beginPath();
+          ctx.arc(
+            particle.x * canvas.width,
+            particle.y * canvas.height,
+            particle.size * devicePixelRatio,
+            0,
+            Math.PI * 2
+          );
+          ctx.fill();
+        });
+        if (!prefersReduced) requestAnimationFrame(drawParticles);
+      }
+
+      window.addEventListener("resize", resizeCanvas);
+      window.addEventListener("pointermove", (event) => {
+        pointer = { x: event.clientX / window.innerWidth, y: event.clientY / window.innerHeight };
+      });
+      resizeCanvas();
+      if (!prefersReduced) drawParticles();
+    </script>
+  </body>
+</html>
