@@ -37,6 +37,9 @@ https://capfroggy.github.io/replyflow-kit/services/
 Full-stack developer services:
 https://capfroggy.github.io/replyflow-kit/services/full-stack-developer-automation/
 
+Full-stack developer services issue:
+https://github.com/capfroggy/replyflow-kit/issues/13
+
 AI lead automation service:
 https://capfroggy.github.io/replyflow-kit/services/ai-lead-follow-up-automation/
 
