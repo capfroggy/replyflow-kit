@@ -36,6 +36,9 @@ https://capfroggy.github.io/replyflow-kit/resources/
 Website bug report checklist:
 https://capfroggy.github.io/replyflow-kit/resources/website-bug-report-checklist/
 
+Website bug report checklist issue:
+https://github.com/capfroggy/replyflow-kit/issues/18
+
 Services:
 https://capfroggy.github.io/replyflow-kit/services/
 

@@ -11,6 +11,7 @@ development, automation, follow-up workflows, and practical AI-assisted tools.
 - Free generator: https://capfroggy.github.io/replyflow-kit/follow-up-message-generator/
 - Template library: https://capfroggy.github.io/replyflow-kit/resources/
 - Website bug report checklist: https://capfroggy.github.io/replyflow-kit/resources/website-bug-report-checklist/
+- Website bug report checklist issue: https://github.com/capfroggy/replyflow-kit/issues/18
 - Services: https://capfroggy.github.io/replyflow-kit/services/
 - Full-stack developer services: https://capfroggy.github.io/replyflow-kit/services/full-stack-developer-automation/
 - Web tool / automation scope builder: https://capfroggy.github.io/replyflow-kit/services/web-tool-automation-landing-page/
@@ -38,7 +39,7 @@ development, automation, follow-up workflows, and practical AI-assisted tools.
 - Service request form: https://github.com/capfroggy/replyflow-kit/issues/new?template=service-request.yml
 - Niche samples: https://capfroggy.github.io/replyflow-kit/niches/
 - Spanish WhatsApp offer: https://capfroggy.github.io/replyflow-kit/es/kit-whatsapp-negocios/
-- Latest release: https://github.com/capfroggy/replyflow-kit/releases/tag/v0.21-bug-fix-code-review
+- Latest release: https://github.com/capfroggy/replyflow-kit/releases/tag/v0.22-bug-report-checklist
 - Feedback discussion: https://github.com/capfroggy/replyflow-kit/discussions/1
 
 ## Paid Offers

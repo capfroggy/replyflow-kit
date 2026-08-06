@@ -14,6 +14,7 @@ paid product files are not published here.
 - Free generator: https://capfroggy.github.io/replyflow-kit/follow-up-message-generator/
 - Template library: https://capfroggy.github.io/replyflow-kit/resources/
 - Website bug report checklist: https://capfroggy.github.io/replyflow-kit/resources/website-bug-report-checklist/
+- Website bug report checklist issue: https://github.com/capfroggy/replyflow-kit/issues/18
 - Services: https://capfroggy.github.io/replyflow-kit/services/
 - Full-stack developer services: https://capfroggy.github.io/replyflow-kit/services/full-stack-developer-automation/
 - Web tool / automation scope builder: https://capfroggy.github.io/replyflow-kit/services/web-tool-automation-landing-page/
@@ -94,7 +95,7 @@ Primary GitHub Pages public URL:
 
 Versioned GitHub release:
 
-- https://github.com/capfroggy/replyflow-kit/releases/tag/v0.21-bug-fix-code-review
+- https://github.com/capfroggy/replyflow-kit/releases/tag/v0.22-bug-report-checklist
 
 Do not upload the paid product zip to a public repository. Send product files
 manually after confirming payment.
