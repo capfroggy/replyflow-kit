@@ -29,7 +29,7 @@ datos.
 
 ## Full Kit
 
-The full ReplyFlow Kit adds 50+ scripts, niche variants, a follow-up tracker,
+The full ReplyFlow Kit adds 70+ scripts, niche variants, a follow-up tracker,
 setup checklist, ROI worksheet, Spanish quick-start pack, WhatsApp mini pack,
 and AI prompt recipes.
 

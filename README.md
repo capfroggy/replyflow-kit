@@ -9,11 +9,11 @@ paid product files are not published here.
 
 ## Quick links
 
-- Primary public site: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.5-github-primary/
-- Free script sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.5-github-primary/sample/
-- Free generator: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.5-github-primary/follow-up-message-generator/
-- Niche samples: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.5-github-primary/niches/
-- Spanish WhatsApp offer: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.5-github-primary/es/kit-whatsapp-negocios/
+- Primary public site: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.6-niche-expansion/
+- Free script sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.6-niche-expansion/sample/
+- Free generator: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.6-niche-expansion/follow-up-message-generator/
+- Niche samples: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.6-niche-expansion/niches/
+- Spanish WhatsApp offer: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.6-niche-expansion/es/kit-whatsapp-negocios/
 - Feedback discussion: https://github.com/capfroggy/replyflow-kit/discussions/1
 - Start here: https://github.com/capfroggy/replyflow-kit/blob/main/START-HERE.md
 - Share copy: https://github.com/capfroggy/replyflow-kit/blob/main/SHARE-COPY.md
@@ -23,8 +23,8 @@ Preview image: `assets/replyflow-preview.jpg`
 ## Public offers
 
 - Free sample: lead, quote, invoice, and WhatsApp scripts
-- Free niche samples: cleaning, plumbing, and invoice reminders
-- ReplyFlow Kit: $19, with dedicated cleaning, plumbing, and invoice collection packs
+- Free niche samples: cleaning, plumbing, HVAC, roofing, lawn care, and invoice reminders
+- ReplyFlow Kit: $19, with dedicated cleaning, plumbing, HVAC, roofing, lawn care, and invoice collection packs
 - WhatsApp Follow-up Mini Pack: $9
 - ReplyFlow Custom Setup: $49
 
@@ -48,8 +48,8 @@ distribution.
 
 Primary GitHub-backed public URL:
 
-- https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.5-github-primary/
-- https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.5-github-primary/sample/
+- https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.6-niche-expansion/
+- https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.6-niche-expansion/sample/
 
 Secondary GitHub Pages URL once Pages finishes processing:
 
