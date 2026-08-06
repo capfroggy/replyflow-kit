@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Free Follow-up Message Generator | ReplyFlow Kit</title>
+    <meta
+      name="description"
+      content="Generate a quick follow-up message for leads, quotes, invoices, or quiet clients."
+    />
+    <link rel="stylesheet" href="../assets/site.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="../">ReplyFlow Kit</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="../">Home</a>
+        <a href="../es/generador-mensajes-seguimiento/">Español</a>
+        <a href="../#checkout">PayPal</a>
+      </nav>
+    </header>
+
+    <main class="section">
+      <p class="eyebrow">Free tool</p>
+      <h1>Generate a usable follow-up message in under a minute.</h1>
+      <p class="lede">
+        Pick the situation, tone, and channel, then copy a lead, quote, invoice,
+        or quiet-client follow-up. The full kit adds longer sequences, niche
+        packs, trackers, and AI prompts.
+      </p>
+
+      <div class="generator">
+        <section class="generator-panel" aria-label="Message controls">
+          <div class="control-block">
+            <span class="control-title">Situation</span>
+            <div class="segments">
+              <button class="segment active" data-group="scenario" data-value="lead" type="button">New lead</button>
+              <button class="segment" data-group="scenario" data-value="quote" type="button">Quote</button>
+              <button class="segment" data-group="scenario" data-value="invoice" type="button">Invoice</button>
+              <button class="segment" data-group="scenario" data-value="quiet" type="button">Quiet client</button>
+            </div>
+          </div>
+
+          <div class="split">
+            <div class="control-block">
+              <span class="control-title">Tone</span>
+              <div class="segments three">
+                <button class="segment active" data-group="tone" data-value="warm" type="button">Warm</button>
+                <button class="segment" data-group="tone" data-value="direct" type="button">Direct</button>
+                <button class="segment" data-group="tone" data-value="firm" type="button">Firm</button>
+              </div>
+            </div>
+            <div class="control-block">
+              <span class="control-title">Channel</span>
+              <div class="segments two">
+                <button class="segment active" data-group="channel" data-value="email" type="button">Email</button>
+                <button class="segment" data-group="channel" data-value="sms" type="button">SMS</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="fields">
+            <label class="field">First name<input id="name" placeholder="Jordan" /></label>
+            <label class="field">Business<input id="business" placeholder="Acme Services" /></label>
+            <label class="field">Service<input id="service" placeholder="AC repair" /></label>
+            <label class="field">Amount<input id="amount" placeholder="$420" /></label>
+          </div>
+          <label class="full-field">Next step<input id="next" placeholder="reply with a time window" /></label>
+        </section>
+
+        <section class="generator-output" aria-label="Generated message">
+          <p class="eyebrow">Generated message</p>
+          <textarea id="message-output" data-language="en" readonly></textarea>
+          <div class="actions">
+            <button class="button primary" id="copy-message" type="button">Copy message</button>
+            <a
+              class="button secondary"
+              data-paypal-amount="19.00"
+              data-paypal-cancel="/follow-up-message-generator/"
+              data-paypal-item="ReplyFlow Kit"
+              href="#"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Get the full kit
+            </a>
+          </div>
+          <p class="generator-note">
+            PayPal recipient: @AMEZQUITASALINAS or
+            alejandro.amezquita@alumnos.udg.mx.
+          </p>
+        </section>
+      </div>
+    </main>
+
+    <script src="../assets/site.js"></script>
+  </body>
+</html>

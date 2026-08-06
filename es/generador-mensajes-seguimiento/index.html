@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Generador Gratis de Mensajes de Seguimiento | ReplyFlow Kit</title>
+    <meta
+      name="description"
+      content="Genera mensajes de seguimiento para leads, cotizaciones, facturas y clientes que dejaron de responder."
+    />
+    <link rel="stylesheet" href="../../assets/site.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="../">ReplyFlow Kit</a>
+      <nav class="nav" aria-label="Navegación principal">
+        <a href="../">Inicio</a>
+        <a href="../kit-whatsapp-negocios/">WhatsApp $9</a>
+        <a href="../../follow-up-message-generator/">English</a>
+      </nav>
+    </header>
+
+    <main class="section">
+      <p class="eyebrow">Herramienta gratis</p>
+      <h1>Genera un mensaje de seguimiento en menos de un minuto.</h1>
+      <p class="lede">
+        Elige situación, tono y canal. Copia el mensaje y úsalo en email,
+        WhatsApp, SMS o tu CRM. El kit completo agrega secuencias, variantes por
+        nicho, rastreador y prompts.
+      </p>
+
+      <div class="generator">
+        <section class="generator-panel" aria-label="Controles del mensaje">
+          <div class="control-block">
+            <span class="control-title">Situación</span>
+            <div class="segments">
+              <button class="segment active" data-group="caso" data-value="lead" type="button">Lead nuevo</button>
+              <button class="segment" data-group="caso" data-value="cotizacion" type="button">Cotización</button>
+              <button class="segment" data-group="caso" data-value="factura" type="button">Factura</button>
+              <button class="segment" data-group="caso" data-value="frio" type="button">Cliente frío</button>
+            </div>
+          </div>
+
+          <div class="split">
+            <div class="control-block">
+              <span class="control-title">Tono</span>
+              <div class="segments three">
+                <button class="segment active" data-group="tono" data-value="calido" type="button">Cálido</button>
+                <button class="segment" data-group="tono" data-value="directo" type="button">Directo</button>
+                <button class="segment" data-group="tono" data-value="firme" type="button">Firme</button>
+              </div>
+            </div>
+            <div class="control-block">
+              <span class="control-title">Canal</span>
+              <div class="segments two">
+                <button class="segment active" data-group="canal" data-value="email" type="button">Email</button>
+                <button class="segment" data-group="canal" data-value="sms" type="button">SMS</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="fields">
+            <label class="field">Nombre<input id="nombre" placeholder="María" /></label>
+            <label class="field">Negocio<input id="negocio" placeholder="Clínica Norte" /></label>
+            <label class="field">Servicio<input id="servicio" placeholder="limpieza dental" /></label>
+            <label class="field">Monto<input id="monto" placeholder="$1,200" /></label>
+          </div>
+          <label class="full-field">
+            Siguiente paso
+            <input id="siguiente" placeholder="responder con un horario disponible" />
+          </label>
+        </section>
+
+        <section class="generator-output" aria-label="Mensaje generado">
+          <p class="eyebrow">Mensaje generado</p>
+          <textarea id="message-output" data-language="es" readonly></textarea>
+          <div class="actions">
+            <button class="button primary" id="copy-message" type="button">Copiar mensaje</button>
+            <a
+              class="button secondary"
+              data-paypal-amount="19.00"
+              data-paypal-cancel="/es/generador-mensajes-seguimiento/"
+              data-paypal-item="ReplyFlow Kit"
+              href="#"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Ver kit completo
+            </a>
+          </div>
+          <p class="generator-note">
+            Destinatario de PayPal: @AMEZQUITASALINAS o
+            alejandro.amezquita@alumnos.udg.mx.
+          </p>
+        </section>
+      </div>
+    </main>
+
+    <script src="../../assets/site.js"></script>
+  </body>
+</html>
