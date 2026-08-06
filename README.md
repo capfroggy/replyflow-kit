@@ -9,10 +9,10 @@ paid product files are not published here.
 
 ## Quick links
 
-- Temporary public site: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.1-free-sample/
-- Free script sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.1-free-sample/sample/
-- Free generator: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.1-free-sample/follow-up-message-generator/
-- Spanish WhatsApp offer: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.1-free-sample/es/kit-whatsapp-negocios/
+- Temporary public site: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.2-paypalme/
+- Free script sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.2-paypalme/sample/
+- Free generator: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.2-paypalme/follow-up-message-generator/
+- Spanish WhatsApp offer: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.2-paypalme/es/kit-whatsapp-negocios/
 - Feedback discussion: https://github.com/capfroggy/replyflow-kit/discussions/1
 
 ## Public offers
@@ -26,6 +26,7 @@ paid product files are not published here.
 
 Manual PayPal checkout:
 
+- PayPal.Me: https://www.paypal.com/paypalme/AMEZQUITASALINAS
 - PayPal handle: @AMEZQUITASALINAS
 - PayPal email: alejandro.amezquita@alumnos.udg.mx
 
@@ -44,8 +45,8 @@ Primary GitHub Pages URL:
 
 Temporary GitHub-backed URL while GitHub Pages is delayed:
 
-- https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.1-free-sample/
-- https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.1-free-sample/sample/
+- https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.2-paypalme/
+- https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.2-paypalme/sample/
 
 Do not upload the paid product zip to a public repository. Send product files
 manually after confirming payment.

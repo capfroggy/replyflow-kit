@@ -1,40 +1,17 @@
 const PAYPAL_EMAIL = "alejandro.amezquita@alumnos.udg.mx";
 const PAYPAL_HANDLE = "@AMEZQUITASALINAS";
+const PAYPAL_ME = "https://www.paypal.com/paypalme/AMEZQUITASALINAS";
 
-function paypalUrl(itemName, amount, cancelPath = "/") {
-  const origin = window.location.origin;
-  const pathParts = window.location.pathname.split("/").filter(Boolean);
-  const isRawGitHack =
-    window.location.hostname === "raw.githack.com" ||
-    window.location.hostname === "rawcdn.githack.com";
-  const basePath = window.location.hostname.endsWith("github.io")
-    ? `/${pathParts[0] || ""}`
-    : isRawGitHack
-      ? `/${pathParts.slice(0, 3).join("/")}`
-      : "";
-  const normalizedCancel = cancelPath.startsWith("/") ? cancelPath : `/${cancelPath}`;
-  const params = new URLSearchParams({
-    cmd: "_xclick",
-    business: PAYPAL_EMAIL,
-    item_name: itemName,
-    amount,
-    currency_code: "USD",
-    no_shipping: "1",
-    no_note: "0",
-    return: `${origin}${basePath}/delivery.html`,
-    cancel_return: `${origin}${basePath}${normalizedCancel}`,
-  });
-
-  return `https://www.paypal.com/cgi-bin/webscr?${params.toString()}`;
+function paypalUrl(amount) {
+  const normalizedAmount = String(amount).replace(/\.00$/, "");
+  return `${PAYPAL_ME}/${normalizedAmount}USD`;
 }
 
 function wirePayPalLinks() {
   document.querySelectorAll("[data-paypal-item]").forEach((link) => {
-    const item = link.getAttribute("data-paypal-item");
     const amount = link.getAttribute("data-paypal-amount");
-    const cancel = link.getAttribute("data-paypal-cancel") || "/";
-    if (item && amount) {
-      link.setAttribute("href", paypalUrl(item, amount, cancel));
+    if (amount) {
+      link.setAttribute("href", paypalUrl(amount));
     }
   });
 }

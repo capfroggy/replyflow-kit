@@ -33,6 +33,6 @@ The full ReplyFlow Kit adds 50+ scripts, niche variants, a follow-up tracker,
 setup checklist, ROI worksheet, Spanish quick-start pack, WhatsApp mini pack,
 and AI prompt recipes.
 
-Pay $19 USD with PayPal to `@AMEZQUITASALINAS` or
-`alejandro.amezquita@alumnos.udg.mx`. Include `ReplyFlow Kit` and your delivery
-email in the payment note.
+Pay $19 USD with PayPal through `paypal.me/AMEZQUITASALINAS`,
+`@AMEZQUITASALINAS`, or `alejandro.amezquita@alumnos.udg.mx`. Include
+`ReplyFlow Kit` and your delivery email in the payment note.
