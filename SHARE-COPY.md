@@ -18,6 +18,7 @@ It includes:
 - Niche pages for cleaning, plumbing, HVAC, roofing, lawn care, and invoice reminders
 - A services page for custom development, automation, CRM, workflow, and copy work
 - A broad full-stack developer services page for web apps, automations, APIs, dashboards, Google Sheets, PDF extraction, and CRM workflows
+- A CSV to spreadsheet automation sample with cleanup, header normalization, dedupe, preview, and export
 - A direct AI lead automation service page for fixed-scope CRM/follow-up builds
 - An approved Upwork Project Catalog service for fixed-scope builds
 - Technical samples for index checking, Google Chat to Sheets, SMS review automation, AI lead follow-up automation, PDF-to-Excel extraction, RFP/document dashboards, and scroll-animated landing pages
@@ -39,6 +40,9 @@ https://capfroggy.github.io/replyflow-kit/services/full-stack-developer-automati
 
 Full-stack developer services issue:
 https://github.com/capfroggy/replyflow-kit/issues/13
+
+CSV to spreadsheet automation sample:
+https://capfroggy.github.io/replyflow-kit/services/csv-spreadsheet-automation-sample/
 
 AI lead automation service:
 https://capfroggy.github.io/replyflow-kit/services/ai-lead-follow-up-automation/
@@ -98,6 +102,9 @@ https://capfroggy.github.io/replyflow-kit/services/
 
 Full-stack developer service page:
 https://capfroggy.github.io/replyflow-kit/services/full-stack-developer-automation/
+
+CSV to spreadsheet automation sample:
+https://capfroggy.github.io/replyflow-kit/services/csv-spreadsheet-automation-sample/
 
 Focused AI lead automation offer:
 https://capfroggy.github.io/replyflow-kit/services/ai-lead-follow-up-automation/

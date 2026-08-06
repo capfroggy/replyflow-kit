@@ -13,6 +13,7 @@ development, automation, follow-up workflows, and practical AI-assisted tools.
 - Full-stack developer services: https://capfroggy.github.io/replyflow-kit/services/full-stack-developer-automation/
 - AI lead automation service: https://capfroggy.github.io/replyflow-kit/services/ai-lead-follow-up-automation/
 - Full-stack developer services issue: https://github.com/capfroggy/replyflow-kit/issues/13
+- CSV to spreadsheet automation sample: https://capfroggy.github.io/replyflow-kit/services/csv-spreadsheet-automation-sample/
 - Email setup sample: https://capfroggy.github.io/replyflow-kit/services/email-marketing-setup-sample/
 - CRM audit sample: https://capfroggy.github.io/replyflow-kit/services/crm-workflow-audit-sample/
 - Invoice workflow sample: https://capfroggy.github.io/replyflow-kit/services/invoice-reminder-workflow-sample/
@@ -38,6 +39,7 @@ development, automation, follow-up workflows, and practical AI-assisted tools.
 - Developer services: $49+ fixed-scope web, automation, integration, workflow, CRM, SMS, Google Workspace, and copy deliverables
 - Full-stack developer services: $49+ web apps, automation scripts, API integrations, dashboards, Google Sheets, PDF extraction, and CRM workflows
 - AI lead automation service page: fixed-scope Upwork/GitHub request path for intake, CRM updates, follow-up messages, and handoff docs
+- CSV to spreadsheet automation sample: browser-only demo for cleaning imports, normalizing headers, deduping records, previewing rows, and exporting CSV
 - AI lead follow-up automation: $149+ fixed-scope lead intake, qualification, CRM update, and follow-up handoff
 - PDF/data extraction workflow: $99+ fixed-scope converter or parser handoff
 - RFP/document dashboard workflow: $149+ fixed-scope document intake, normalized rows, searchable dashboard, and export handoff
