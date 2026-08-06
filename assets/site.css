@@ -1,12 +1,12 @@
 :root {
-  --background: #fbf6ed;
+  --background: #f6f8fb;
   --foreground: #172226;
   --muted: #5f6b70;
   --teal: #177f7b;
   --teal-dark: #0d5553;
   --coral: #d95d43;
   --gold: #d49a1f;
-  --cream: #fffaf1;
+  --cream: #ffffff;
   --line: rgba(23, 34, 38, 0.16);
 }
 
@@ -59,7 +59,7 @@ a {
   align-items: center;
   border-bottom: 1px solid var(--line);
   background:
-    linear-gradient(90deg, rgba(251, 246, 237, 0.98) 0%, rgba(251, 246, 237, 0.92) 42%, rgba(251, 246, 237, 0.2) 100%),
+    linear-gradient(90deg, rgba(246, 248, 251, 0.98) 0%, rgba(246, 248, 251, 0.9) 42%, rgba(246, 248, 251, 0.16) 100%),
     url("replyflow-preview.jpg") center right / cover no-repeat;
 }
 
@@ -127,7 +127,7 @@ h2 {
 }
 
 .button.secondary {
-  background: rgba(255, 250, 241, 0.86);
+  background: rgba(255, 255, 255, 0.9);
 }
 
 .section {
@@ -157,6 +157,15 @@ h2 {
   margin-bottom: 12px;
   color: var(--coral);
   font-weight: 900;
+}
+
+.text-link {
+  display: inline-flex;
+  margin-top: 8px;
+  color: var(--teal-dark);
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .card p,
@@ -242,7 +251,7 @@ label,
   min-height: 44px;
   border: 0;
   border-right: 1px solid var(--line);
-  background: rgba(251, 246, 237, 0.72);
+  background: rgba(246, 248, 251, 0.86);
   color: #25363b;
   cursor: pointer;
   font: inherit;
@@ -269,7 +278,7 @@ textarea {
   width: 100%;
   border: 1px solid var(--line);
   border-radius: 6px;
-  background: rgba(251, 246, 237, 0.72);
+  background: rgba(246, 248, 251, 0.86);
   color: var(--foreground);
   font: inherit;
 }

@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Invoice Reminder Workflow Sample | ReplyFlow Kit</title>
+    <meta
+      name="description"
+      content="A sample invoice reminder workflow with day 0, 3, 7, 14, and 21 messages for small businesses."
+    />
+    <meta property="og:title" content="Invoice Reminder Workflow Sample" />
+    <meta
+      property="og:description"
+      content="See a practical sample deliverable for invoice reminder workflows and payment follow-up messages."
+    />
+    <meta property="og:image" content="../../assets/replyflow-preview.jpg" />
+    <link rel="stylesheet" href="../../assets/site.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="../../">ReplyFlow Kit</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="../../follow-up-message-generator/">Generator</a>
+        <a href="../../resources/">Resources</a>
+        <a href="../">Services</a>
+        <a href="../../sample/">Free sample</a>
+        <a href="../../niches/">Niches</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section">
+        <p class="eyebrow">Sample deliverable</p>
+        <h1>Invoice reminder workflow.</h1>
+        <p class="lede">
+          This sample shows how a small business can follow up on invoices with
+          clear timing, professional wording, and a simple internal checklist.
+        </p>
+      </section>
+
+      <section class="section">
+        <p class="eyebrow">Reminder sequence</p>
+        <h2>Five practical touchpoints.</h2>
+        <div class="sample-list">
+          <article class="script">
+            <h2>Day 0: invoice sent</h2>
+            <p>
+              Hi {{first_name}}, invoice {{invoice_number}} for {{amount}} has
+              been sent. You can pay here: {{payment_link}}. Reply if any detail
+              needs correction.
+            </p>
+          </article>
+          <article class="script">
+            <h2>Day 3: friendly check</h2>
+            <p>
+              Hi {{first_name}}, quick check that invoice {{invoice_number}} came
+              through. The payment link is {{payment_link}}. Thank you.
+            </p>
+          </article>
+          <article class="script">
+            <h2>Day 7: direct reminder</h2>
+            <p>
+              Hi {{first_name}}, invoice {{invoice_number}} for {{amount}} is
+              still open. Please complete payment today or reply with any issue
+              so I can help.
+            </p>
+          </article>
+          <article class="script">
+            <h2>Day 14: firm follow-up</h2>
+            <p>
+              Hi {{first_name}}, invoice {{invoice_number}} is now 14 days open.
+              Please pay by {{date}} using {{payment_link}}, or reply today if
+              something needs to be resolved.
+            </p>
+          </article>
+          <article class="script">
+            <h2>Day 21: final internal escalation</h2>
+            <p>
+              Hi {{first_name}}, I need to close out invoice {{invoice_number}}.
+              Please pay or reply by {{date}} so we can avoid pausing future
+              work.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="split">
+          <article class="panel">
+            <p class="eyebrow">Tracker fields</p>
+            <h2>Keep it simple.</h2>
+            <ul>
+              <li>Client name</li>
+              <li>Invoice number</li>
+              <li>Amount</li>
+              <li>Due date</li>
+              <li>Last reminder sent</li>
+              <li>Next action date</li>
+              <li>Status</li>
+            </ul>
+          </article>
+          <article class="panel">
+            <p class="eyebrow">Internal rule</p>
+            <h2>Stop when paid.</h2>
+            <p>
+              Every reminder should include one clear payment link and one way
+              to report a problem. Once payment is confirmed, reminders stop and
+              the tracker moves to paid.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="section">
+        <p>ReplyFlow Kit. Sample deliverable for fixed-scope invoice workflow work.</p>
+      </div>
+    </footer>
+  </body>
+</html>

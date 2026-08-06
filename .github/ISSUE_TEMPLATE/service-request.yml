@@ -1,0 +1,99 @@
+name: Service request
+description: Request fixed-scope development, automation, workflow, web, CRM, or copy work.
+title: "[Service request]: "
+labels: ["service-request", "lead"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your interest. Please do not share passwords, private customer lists, API keys, or sensitive account access in this public issue.
+  - type: dropdown
+    id: service_type
+    attributes:
+      label: What do you need?
+      options:
+        - Small website or landing page
+        - Web app, dashboard, or internal tool
+        - Automation script
+        - API, form, spreadsheet, or CRM integration
+        - Bug fix or feature update
+        - Data cleanup, report, or tracker
+        - Email marketing setup plan
+        - CRM and lead follow-up audit
+        - Invoice reminder workflow
+        - Landing page or offer copy
+        - WhatsApp or SMS sales scripts
+        - One-page operating playbook
+        - Not sure yet
+    validations:
+      required: true
+  - type: input
+    id: project_context
+    attributes:
+      label: Project or business context
+      description: Example: cleaning company website, ecommerce store, CRM workflow, spreadsheet tracker, internal tool.
+      placeholder: Small business website with quote request form
+    validations:
+      required: true
+  - type: textarea
+    id: current_need
+    attributes:
+      label: What should be built, fixed, automated, or improved?
+      description: Describe the current problem and what a useful finished result would look like.
+      placeholder: Build a landing page, connect a form to a spreadsheet, fix a bug, or create an automated follow-up flow.
+    validations:
+      required: true
+  - type: dropdown
+    id: channels
+    attributes:
+      label: Which tools or outputs should the deliverable support?
+      multiple: true
+      options:
+        - Website
+        - Web app
+        - Form
+        - API
+        - Google Sheets / CSV
+        - Email
+        - SMS
+        - WhatsApp
+        - CRM
+        - Invoice tool
+        - Documentation
+        - Not sure
+  - type: input
+    id: tools
+    attributes:
+      label: Current stack or tools
+      description: List any tools you already use. Do not post login details.
+      placeholder: HTML, WordPress, React, Node.js, Python, Zapier, Make, Mailchimp, HubSpot, Google Sheets
+  - type: dropdown
+    id: budget
+    attributes:
+      label: Budget range
+      options:
+        - $25-$49
+        - $50-$149
+        - $100-$250
+        - $250+
+        - Marketplace escrow only
+        - I need a quote first
+    validations:
+      required: true
+  - type: textarea
+    id: examples
+    attributes:
+      label: Existing code, page, copy, workflow, or notes
+      description: Paste non-sensitive examples. Do not post credentials, customer data, API keys, or private files.
+      placeholder: Current page URL, error text, workflow notes, sample CSV headers, or current follow-up message.
+    validations:
+      required: false
+  - type: checkboxes
+    id: payment_terms
+    attributes:
+      label: Payment and scope
+      options:
+        - label: I understand this is a fixed-scope request and payment must be confirmed before delivery of custom work.
+          required: true
+        - label: I will not post passwords, API keys, private customer data, or sensitive account access in this issue.
+          required: true

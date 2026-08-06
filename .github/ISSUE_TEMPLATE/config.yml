@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: View service packages
+    url: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.9-developer-services/services/
+    about: See fixed-scope web, automation, integration, workflow, CRM, and copy services.
+  - name: Pay service deposit
+    url: https://www.paypal.com/paypalme/AMEZQUITASALINAS/49USD
+    about: Use only after scope is agreed. Include the service name and delivery email in the note.
