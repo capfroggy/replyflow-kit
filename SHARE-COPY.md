@@ -57,6 +57,9 @@ https://github.com/capfroggy/replyflow-kit/issues/15
 AI lead automation service:
 https://capfroggy.github.io/replyflow-kit/services/ai-lead-follow-up-automation/
 
+Web tool / automation scope builder:
+https://capfroggy.github.io/replyflow-kit/services/web-tool-automation-landing-page/
+
 Hire on Upwork:
 https://www.upwork.com/services/product/development-it-a-web-tool-automation-or-landing-page-for-your-business-2085462295735290357?ref=project_share
 
@@ -112,6 +115,9 @@ https://capfroggy.github.io/replyflow-kit/services/
 
 Full-stack developer service page:
 https://capfroggy.github.io/replyflow-kit/services/full-stack-developer-automation/
+
+Web tool / automation scope builder:
+https://capfroggy.github.io/replyflow-kit/services/web-tool-automation-landing-page/
 
 CSV to spreadsheet automation sample:
 https://capfroggy.github.io/replyflow-kit/services/csv-spreadsheet-automation-sample/

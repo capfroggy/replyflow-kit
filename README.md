@@ -14,6 +14,7 @@ paid product files are not published here.
 - Template library: https://capfroggy.github.io/replyflow-kit/resources/
 - Services: https://capfroggy.github.io/replyflow-kit/services/
 - Full-stack developer services: https://capfroggy.github.io/replyflow-kit/services/full-stack-developer-automation/
+- Web tool / automation scope builder: https://capfroggy.github.io/replyflow-kit/services/web-tool-automation-landing-page/
 - AI lead automation service: https://capfroggy.github.io/replyflow-kit/services/ai-lead-follow-up-automation/
 - Full-stack developer services issue: https://github.com/capfroggy/replyflow-kit/issues/13
 - CSV to spreadsheet automation sample: https://capfroggy.github.io/replyflow-kit/services/csv-spreadsheet-automation-sample/
@@ -50,6 +51,7 @@ Preview image: `assets/replyflow-preview.jpg`
 - WhatsApp Follow-up Mini Pack: $9
 - Developer services: $49+ fixed-scope web, automation, integration, workflow, CRM, SMS, Google Workspace, and copy deliverables
 - Full-stack developer services: $49+ web apps, automation scripts, API integrations, dashboards, Google Sheets, PDF extraction, and CRM workflows
+- Web tool / automation scope builder: client-facing brief generator for the approved Upwork service
 - AI lead automation service page: fixed-scope Upwork/GitHub request path for intake, CRM updates, follow-up messages, and handoff docs
 - CSV to spreadsheet automation sample: browser-only demo for cleaning imports, normalizing headers, deduping records, previewing rows, and exporting CSV
 - WhatsApp bot classifier sample: Spanish inbound bot demo for message classification, safe replies, priority, inbox routing, and handoff payloads
