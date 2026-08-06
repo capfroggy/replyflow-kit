@@ -6,12 +6,13 @@ recipes.
 
 ## Useful Free Links
 
-- Public site: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.6-niche-expansion/
-- Free script sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.6-niche-expansion/sample/
-- Free generator: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.6-niche-expansion/follow-up-message-generator/
-- Niche samples: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.6-niche-expansion/niches/
-- Spanish WhatsApp offer: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.6-niche-expansion/es/kit-whatsapp-negocios/
-- Latest release: https://github.com/capfroggy/replyflow-kit/releases/tag/v0.6-niche-expansion
+- Public site: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.7-resource-library/
+- Free script sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.7-resource-library/sample/
+- Free generator: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.7-resource-library/follow-up-message-generator/
+- Template library: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.7-resource-library/resources/
+- Niche samples: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.7-resource-library/niches/
+- Spanish WhatsApp offer: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.7-resource-library/es/kit-whatsapp-negocios/
+- Latest release: https://github.com/capfroggy/replyflow-kit/releases/tag/v0.7-resource-library
 - Feedback discussion: https://github.com/capfroggy/replyflow-kit/discussions/1
 
 ## Paid Offers
