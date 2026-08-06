@@ -17,6 +17,7 @@ It includes:
 - A public template library for invoices, quotes, missed calls, and WhatsApp
 - Niche pages for cleaning, plumbing, HVAC, roofing, lawn care, and invoice reminders
 - A services page for custom development, automation, CRM, workflow, and copy work
+- A direct AI lead automation service page for fixed-scope CRM/follow-up builds
 - An approved Upwork Project Catalog service for fixed-scope builds
 - Technical samples for index checking, Google Chat to Sheets, SMS review automation, AI lead follow-up automation, PDF-to-Excel extraction, RFP/document dashboards, and scroll-animated landing pages
 
@@ -31,6 +32,9 @@ https://capfroggy.github.io/replyflow-kit/resources/
 
 Services:
 https://capfroggy.github.io/replyflow-kit/services/
+
+AI lead automation service:
+https://capfroggy.github.io/replyflow-kit/services/ai-lead-follow-up-automation/
 
 Hire on Upwork:
 https://www.upwork.com/services/product/development-it-a-web-tool-automation-or-landing-page-for-your-business-2085462295735290357?ref=project_share
@@ -84,6 +88,9 @@ out.
 
 Relevant sample:
 https://capfroggy.github.io/replyflow-kit/services/
+
+Focused AI lead automation offer:
+https://capfroggy.github.io/replyflow-kit/services/ai-lead-follow-up-automation/
 
 Upwork Project Catalog:
 https://www.upwork.com/services/product/development-it-a-web-tool-automation-or-landing-page-for-your-business-2085462295735290357?ref=project_share
