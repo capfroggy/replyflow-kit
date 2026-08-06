@@ -10,6 +10,7 @@ development, automation, follow-up workflows, and practical AI-assisted tools.
 - Free generator: https://capfroggy.github.io/replyflow-kit/follow-up-message-generator/
 - Template library: https://capfroggy.github.io/replyflow-kit/resources/
 - Services: https://capfroggy.github.io/replyflow-kit/services/
+- Full-stack developer services: https://capfroggy.github.io/replyflow-kit/services/full-stack-developer-automation/
 - AI lead automation service: https://capfroggy.github.io/replyflow-kit/services/ai-lead-follow-up-automation/
 - Email setup sample: https://capfroggy.github.io/replyflow-kit/services/email-marketing-setup-sample/
 - CRM audit sample: https://capfroggy.github.io/replyflow-kit/services/crm-workflow-audit-sample/
@@ -34,6 +35,7 @@ development, automation, follow-up workflows, and practical AI-assisted tools.
 - ReplyFlow Kit: $19, with cleaning, plumbing, HVAC, roofing, lawn care, and invoice collection packs
 - WhatsApp Follow-up Mini Pack: $9
 - Developer services: $49+ fixed-scope web, automation, integration, workflow, CRM, SMS, Google Workspace, and copy deliverables
+- Full-stack developer services: $49+ web apps, automation scripts, API integrations, dashboards, Google Sheets, PDF extraction, and CRM workflows
 - AI lead automation service page: fixed-scope Upwork/GitHub request path for intake, CRM updates, follow-up messages, and handoff docs
 - AI lead follow-up automation: $149+ fixed-scope lead intake, qualification, CRM update, and follow-up handoff
 - PDF/data extraction workflow: $99+ fixed-scope converter or parser handoff
