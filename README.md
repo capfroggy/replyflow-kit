@@ -19,6 +19,7 @@ paid product files are not published here.
 - Google index checker sample: https://capfroggy.github.io/replyflow-kit/services/google-index-checker-sample/
 - Google Chat to Sheets sample: https://capfroggy.github.io/replyflow-kit/services/google-chat-sheets-sample/
 - SMS review automation sample: https://capfroggy.github.io/replyflow-kit/services/sms-review-automation-sample/
+- AI lead follow-up automation sample: https://capfroggy.github.io/replyflow-kit/services/ai-lead-follow-up-automation-sample/
 - PDF statement to Excel sample: https://capfroggy.github.io/replyflow-kit/services/pdf-bank-statement-excel-sample/
 - RFP document dashboard sample: https://capfroggy.github.io/replyflow-kit/services/rfp-document-dashboard-sample/
 - Cinematic scroll demo: https://capfroggy.github.io/replyflow-kit/services/cinematic-scroll-demo/
@@ -41,6 +42,7 @@ Preview image: `assets/replyflow-preview.jpg`
 - ReplyFlow Kit: $19, with dedicated cleaning, plumbing, HVAC, roofing, lawn care, and invoice collection packs
 - WhatsApp Follow-up Mini Pack: $9
 - Developer services: $49+ fixed-scope web, automation, integration, workflow, CRM, SMS, Google Workspace, and copy deliverables
+- AI lead follow-up automation: $149+ fixed-scope lead intake, qualification, CRM update, and follow-up handoff
 - PDF/data extraction workflow: $99+ fixed-scope converter or parser handoff
 - RFP/document dashboard workflow: $149+ fixed-scope document intake, normalized rows, searchable dashboard, and export handoff
 - Cinematic landing page: $600 contest/demo target, static page with scroll animation
@@ -72,7 +74,7 @@ Primary GitHub Pages public URL:
 
 Versioned GitHub release:
 
-- https://github.com/capfroggy/replyflow-kit/releases/tag/v0.14-rfp-dashboard-sample
+- https://github.com/capfroggy/replyflow-kit/releases/tag/v0.15-ai-lead-automation-sample
 
 Do not upload the paid product zip to a public repository. Send product files
 manually after confirming payment.

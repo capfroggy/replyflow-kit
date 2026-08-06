@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Lead Follow-up Automation Sample | Developer Services</title>
+    <meta
+      name="description"
+      content="Sample AI-assisted lead follow-up automation for forms, CRM updates, WhatsApp/SMS/email messages, qualification, and handoff notes."
+    />
+    <meta property="og:title" content="AI Lead Follow-up Automation Sample" />
+    <meta
+      property="og:description"
+      content="A fixed-scope automation sample for lead intake, qualification, CRM status updates, and practical follow-up messages."
+    />
+    <meta property="og:image" content="../../assets/replyflow-preview.jpg" />
+    <link rel="stylesheet" href="../../assets/site.css" />
+    <style>
+      .automation-board {
+        display: grid;
+        grid-template-columns: minmax(250px, 0.7fr) minmax(0, 1.3fr);
+        gap: 12px;
+        margin-top: 28px;
+      }
+
+      .control-stack {
+        display: grid;
+        gap: 14px;
+      }
+
+      .control-stack label {
+        display: grid;
+        gap: 7px;
+        color: var(--teal-dark);
+        font-size: 0.78rem;
+        font-weight: 900;
+        text-transform: uppercase;
+      }
+
+      .control-stack select,
+      .control-stack input {
+        min-height: 44px;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: #fff;
+        color: var(--foreground);
+        font: inherit;
+        padding: 0 12px;
+        text-transform: none;
+      }
+
+      .timeline {
+        display: grid;
+        gap: 10px;
+      }
+
+      .step-row {
+        display: grid;
+        grid-template-columns: 90px minmax(0, 1fr);
+        gap: 12px;
+        align-items: stretch;
+      }
+
+      .step-time {
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: #fff;
+        padding: 14px;
+        color: var(--teal-dark);
+        font-weight: 900;
+        text-align: center;
+      }
+
+      .step-card {
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: #fff;
+        padding: 16px;
+      }
+
+      .step-card strong {
+        display: block;
+        margin-bottom: 7px;
+      }
+
+      .step-card p {
+        margin-bottom: 0;
+        color: var(--muted);
+        line-height: 1.52;
+      }
+
+      .ops-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 10px;
+        margin-top: 28px;
+      }
+
+      .ops-metric {
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: #fff;
+        padding: 18px;
+      }
+
+      .ops-metric strong {
+        display: block;
+        font-size: 1.5rem;
+        line-height: 1;
+      }
+
+      .ops-metric span {
+        display: block;
+        margin-top: 8px;
+        color: var(--muted);
+        font-size: 0.9rem;
+        line-height: 1.35;
+      }
+
+      .code-panel {
+        overflow-x: auto;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: #172226;
+        color: #eef7f5;
+        padding: 18px;
+      }
+
+      .code-panel code {
+        white-space: pre;
+      }
+
+      @media (max-width: 860px) {
+        .automation-board,
+        .ops-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .step-row {
+          grid-template-columns: 1fr;
+        }
+
+        .step-time {
+          text-align: left;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="../../">ReplyFlow Kit</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="../../follow-up-message-generator/">Generator</a>
+        <a href="../../resources/">Resources</a>
+        <a href="../">Services</a>
+        <a href="../../sample/">Free sample</a>
+        <a href="../../niches/">Niches</a>
+        <a href="../../es/">Espanol</a>
+      </nav>
+    </header>
+
+    <section class="hero" aria-label="AI lead automation sample">
+      <div class="hero-inner">
+        <p class="eyebrow">AI automation and chatbot workflow sample</p>
+        <h1>Lead intake, qualification, and follow-up without the manual chase.</h1>
+        <p class="lede">
+          A small automation pattern for businesses that receive leads from
+          forms, ads, calls, or landing pages and need fast replies, CRM status
+          updates, reminders, and a clean human handoff.
+        </p>
+        <div class="actions">
+          <a class="button primary" href="../request/">Request similar build</a>
+          <a
+            class="button secondary"
+            href="https://www.upwork.com/services/product/development-it-a-web-tool-automation-or-landing-page-for-your-business-2085462295735290357?ref=project_share"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Hire on Upwork
+          </a>
+          <a class="button secondary" href="../">Back to services</a>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <section class="section">
+        <p class="eyebrow">Interactive workflow</p>
+        <h2>Generate a follow-up sequence from one lead.</h2>
+        <p class="lede">
+          This sample uses deterministic templates for public demo purposes.
+          A client build can connect the same workflow to OpenAI, a CRM, n8n,
+          Zapier, Make, Google Sheets, Twilio, WhatsApp Cloud API, or email.
+        </p>
+
+        <div class="automation-board">
+          <article class="panel">
+            <div class="control-stack">
+              <label>
+                Lead source
+                <select id="source">
+                  <option>Facebook Lead Ad</option>
+                  <option>Website form</option>
+                  <option>Missed call</option>
+                  <option>Referral</option>
+                </select>
+              </label>
+              <label>
+                Business type
+                <select id="industry">
+                  <option>home service contractor</option>
+                  <option>real estate team</option>
+                  <option>clinic</option>
+                  <option>B2B agency</option>
+                </select>
+              </label>
+              <label>
+                Channel
+                <select id="channel">
+                  <option>SMS</option>
+                  <option>WhatsApp</option>
+                  <option>Email</option>
+                </select>
+              </label>
+              <label>
+                Lead name
+                <input id="lead-name" value="Jordan" />
+              </label>
+              <label>
+                Requested service
+                <input id="service" value="roof inspection" />
+              </label>
+            </div>
+          </article>
+
+          <article class="panel">
+            <div class="timeline" id="timeline"></div>
+          </article>
+        </div>
+
+        <div class="ops-grid" aria-label="Workflow metrics">
+          <article class="ops-metric">
+            <strong>4</strong>
+            <span>touches generated</span>
+          </article>
+          <article class="ops-metric">
+            <strong>3</strong>
+            <span>CRM states updated</span>
+          </article>
+          <article class="ops-metric">
+            <strong>2</strong>
+            <span>handoff triggers</span>
+          </article>
+          <article class="ops-metric">
+            <strong>0</strong>
+            <span>paid services required for demo</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="split">
+          <article class="panel">
+            <p class="eyebrow">Build scope</p>
+            <h2>Small first version.</h2>
+            <ul>
+              <li>Lead source webhook or CSV/Sheet intake</li>
+              <li>Duplicate check by phone, email, or source ID</li>
+              <li>AI-assisted qualification summary with human-review fallback</li>
+              <li>SMS, WhatsApp, or email follow-up timing</li>
+              <li>CRM or spreadsheet status updates and handoff notes</li>
+            </ul>
+          </article>
+          <article class="panel">
+            <p class="eyebrow">Guardrails</p>
+            <h2>Designed for useful automation, not spam.</h2>
+            <p>
+              The workflow is scoped around incoming leads or approved lists,
+              keeps opt-out language where required, logs every send, and
+              escalates to a person when a lead asks a question the automation
+              should not answer alone.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <p class="eyebrow">Example event</p>
+        <h2>What the automation stores.</h2>
+        <div class="code-panel">
+          <code id="event-json"></code>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="section">
+        <p>ReplyFlow Kit. Product files and custom deliverables are sent after confirmed payment.</p>
+      </div>
+    </footer>
+
+    <script>
+      const controls = {
+        source: document.querySelector("#source"),
+        industry: document.querySelector("#industry"),
+        channel: document.querySelector("#channel"),
+        name: document.querySelector("#lead-name"),
+        service: document.querySelector("#service")
+      };
+      const timeline = document.querySelector("#timeline");
+      const eventJson = document.querySelector("#event-json");
+
+      function sentenceChannel(channel) {
+        if (channel === "Email") return "email";
+        if (channel === "WhatsApp") return "WhatsApp message";
+        return "text message";
+      }
+
+      function buildSteps() {
+        const name = controls.name.value.trim() || "Jordan";
+        const service = controls.service.value.trim() || "the service";
+        const source = controls.source.value;
+        const industry = controls.industry.value;
+        const channel = controls.channel.value;
+        const channelName = sentenceChannel(channel);
+
+        return [
+          {
+            time: "0 min",
+            title: "Reply and qualify",
+            body: `Hi ${name}, thanks for reaching out about ${service}. I can help. What is the best time today for two quick questions so I can give you a clear next step?`
+          },
+          {
+            time: "5 min",
+            title: "Create CRM record",
+            body: `Source: ${source}. Segment: ${industry}. Status: New lead. Owner: intake queue. Required fields: need, location, timing, budget, and contact preference.`
+          },
+          {
+            time: "2 hrs",
+            title: "No-response follow-up",
+            body: `Quick follow-up, ${name}. I can still help with ${service}. Reply with one good time window and I will keep the next step simple.`
+          },
+          {
+            time: "24 hrs",
+            title: "Human handoff",
+            body: `If there is no reply, mark as waiting. If the lead replies with urgency, price objection, cancellation, legal, medical, or financial details, notify a person instead of sending another automated ${channelName}.`
+          }
+        ];
+      }
+
+      function escapeHtml(value) {
+        return String(value).replace(/[&<>"']/g, (char) => ({
+          "&": "&amp;",
+          "<": "&lt;",
+          ">": "&gt;",
+          "\"": "&quot;",
+          "'": "&#39;"
+        })[char]);
+      }
+
+      function render() {
+        const steps = buildSteps();
+        timeline.innerHTML = steps
+          .map(
+            (step) => `
+              <div class="step-row">
+                <div class="step-time">${escapeHtml(step.time)}</div>
+                <div class="step-card">
+                  <strong>${escapeHtml(step.title)}</strong>
+                  <p>${escapeHtml(step.body)}</p>
+                </div>
+              </div>
+            `
+          )
+          .join("");
+
+        const event = {
+          source: controls.source.value,
+          channel: controls.channel.value,
+          status: "new_lead",
+          lead: {
+            name: controls.name.value.trim() || "Jordan",
+            requested_service: controls.service.value.trim() || "the service",
+            segment: controls.industry.value
+          },
+          automation: {
+            duplicate_check: "phone_or_email",
+            human_handoff: ["urgent request", "price objection", "sensitive details"],
+            next_action: "send_initial_reply"
+          }
+        };
+
+        eventJson.textContent = JSON.stringify(event, null, 2);
+      }
+
+      Object.values(controls).forEach((control) => {
+        control.addEventListener("input", render);
+        control.addEventListener("change", render);
+      });
+
+      render();
+    </script>
+    <script src="../../assets/site.js"></script>
+  </body>
+</html>
