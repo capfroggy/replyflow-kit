@@ -12,6 +12,7 @@ development, automation, follow-up workflows, and practical AI-assisted tools.
 - Services: https://capfroggy.github.io/replyflow-kit/services/
 - Full-stack developer services: https://capfroggy.github.io/replyflow-kit/services/full-stack-developer-automation/
 - Web tool / automation scope builder: https://capfroggy.github.io/replyflow-kit/services/web-tool-automation-landing-page/
+- Web tool scope builder issue: https://github.com/capfroggy/replyflow-kit/issues/16
 - AI lead automation service: https://capfroggy.github.io/replyflow-kit/services/ai-lead-follow-up-automation/
 - Full-stack developer services issue: https://github.com/capfroggy/replyflow-kit/issues/13
 - CSV to spreadsheet automation sample: https://capfroggy.github.io/replyflow-kit/services/csv-spreadsheet-automation-sample/
@@ -33,7 +34,7 @@ development, automation, follow-up workflows, and practical AI-assisted tools.
 - Service request form: https://github.com/capfroggy/replyflow-kit/issues/new?template=service-request.yml
 - Niche samples: https://capfroggy.github.io/replyflow-kit/niches/
 - Spanish WhatsApp offer: https://capfroggy.github.io/replyflow-kit/es/kit-whatsapp-negocios/
-- Latest release: https://github.com/capfroggy/replyflow-kit/releases/tag/v0.19-whatsapp-bot-classifier-sample
+- Latest release: https://github.com/capfroggy/replyflow-kit/releases/tag/v0.20-web-tool-scope-builder
 - Feedback discussion: https://github.com/capfroggy/replyflow-kit/discussions/1
 
 ## Paid Offers

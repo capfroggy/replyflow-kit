@@ -60,6 +60,9 @@ https://capfroggy.github.io/replyflow-kit/services/ai-lead-follow-up-automation/
 Web tool / automation scope builder:
 https://capfroggy.github.io/replyflow-kit/services/web-tool-automation-landing-page/
 
+Web tool scope builder issue:
+https://github.com/capfroggy/replyflow-kit/issues/16
+
 Hire on Upwork:
 https://www.upwork.com/services/product/development-it-a-web-tool-automation-or-landing-page-for-your-business-2085462295735290357?ref=project_share
 
