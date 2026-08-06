@@ -59,9 +59,8 @@ a {
   align-items: center;
   border-bottom: 1px solid var(--line);
   background:
-    linear-gradient(90deg, rgba(251, 246, 237, 0.98), rgba(255, 250, 241, 0.62)),
-    radial-gradient(circle at 82% 28%, rgba(23, 127, 123, 0.22), transparent 36%),
-    radial-gradient(circle at 78% 74%, rgba(217, 93, 67, 0.18), transparent 34%);
+    linear-gradient(90deg, rgba(251, 246, 237, 0.98) 0%, rgba(251, 246, 237, 0.92) 42%, rgba(251, 246, 237, 0.2) 100%),
+    url("replyflow-preview.jpg") center right / cover no-repeat;
 }
 
 .hero-inner {

@@ -9,11 +9,13 @@ paid product files are not published here.
 
 ## Quick links
 
-- Temporary public site: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.2-paypalme/
-- Free script sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.2-paypalme/sample/
-- Free generator: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.2-paypalme/follow-up-message-generator/
-- Spanish WhatsApp offer: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.2-paypalme/es/kit-whatsapp-negocios/
+- Temporary public site: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.3-visual/
+- Free script sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.3-visual/sample/
+- Free generator: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.3-visual/follow-up-message-generator/
+- Spanish WhatsApp offer: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.3-visual/es/kit-whatsapp-negocios/
 - Feedback discussion: https://github.com/capfroggy/replyflow-kit/discussions/1
+
+Preview image: `assets/replyflow-preview.jpg`
 
 ## Public offers
 
@@ -45,8 +47,8 @@ Primary GitHub Pages URL:
 
 Temporary GitHub-backed URL while GitHub Pages is delayed:
 
-- https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.2-paypalme/
-- https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.2-paypalme/sample/
+- https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.3-visual/
+- https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.3-visual/sample/
 
 Do not upload the paid product zip to a public repository. Send product files
 manually after confirming payment.
