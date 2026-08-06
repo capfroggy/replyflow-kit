@@ -26,7 +26,7 @@ development, automation, follow-up workflows, and practical AI-assisted tools.
 - Service request form: https://github.com/capfroggy/replyflow-kit/issues/new?template=service-request.yml
 - Niche samples: https://capfroggy.github.io/replyflow-kit/niches/
 - Spanish WhatsApp offer: https://capfroggy.github.io/replyflow-kit/es/kit-whatsapp-negocios/
-- Latest release: https://github.com/capfroggy/replyflow-kit/releases/tag/v0.15-ai-lead-automation-sample
+- Latest release: https://github.com/capfroggy/replyflow-kit/releases/tag/v0.16-ai-service-page
 - Feedback discussion: https://github.com/capfroggy/replyflow-kit/discussions/1
 
 ## Paid Offers

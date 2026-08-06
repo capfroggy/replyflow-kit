@@ -76,7 +76,7 @@ Primary GitHub Pages public URL:
 
 Versioned GitHub release:
 
-- https://github.com/capfroggy/replyflow-kit/releases/tag/v0.15-ai-lead-automation-sample
+- https://github.com/capfroggy/replyflow-kit/releases/tag/v0.16-ai-service-page
 
 Do not upload the paid product zip to a public repository. Send product files
 manually after confirming payment.
