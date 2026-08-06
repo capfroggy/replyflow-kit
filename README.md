@@ -23,5 +23,13 @@ Delivery is manual after payment confirmation.
 This site is plain HTML, CSS, and JavaScript. It can run on GitHub Pages,
 InfinityFree, Cloudflare Pages, Netlify, or any static web host.
 
+Primary GitHub Pages URL:
+
+- https://capfroggy.github.io/replyflow-kit/
+
+Temporary GitHub-backed URL while GitHub Pages is delayed:
+
+- https://rawcdn.githack.com/capfroggy/replyflow-kit/2a536d4f9ac641ef912b89536f57f204f102d8ae/
+
 Do not upload the paid product zip to a public repository. Send product files
 manually after confirming payment.
