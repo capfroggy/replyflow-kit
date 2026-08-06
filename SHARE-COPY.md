@@ -66,6 +66,9 @@ https://capfroggy.github.io/replyflow-kit/services/web-tool-automation-landing-p
 Bug fix and code review service:
 https://capfroggy.github.io/replyflow-kit/services/bug-fix-code-review/
 
+Bug fix and code review issue:
+https://github.com/capfroggy/replyflow-kit/issues/17
+
 Web tool scope builder issue:
 https://github.com/capfroggy/replyflow-kit/issues/16
 
