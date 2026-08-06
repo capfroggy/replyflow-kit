@@ -18,7 +18,7 @@ It includes:
 - Niche pages for cleaning, plumbing, HVAC, roofing, lawn care, and invoice reminders
 - A services page for custom development, automation, CRM, workflow, and copy work
 - An approved Upwork Project Catalog service for fixed-scope builds
-- Technical samples for index checking, Google Chat to Sheets, SMS review automation, PDF-to-Excel extraction, and scroll-animated landing pages
+- Technical samples for index checking, Google Chat to Sheets, SMS review automation, PDF-to-Excel extraction, RFP/document dashboards, and scroll-animated landing pages
 
 Free sample:
 https://capfroggy.github.io/replyflow-kit/sample/
@@ -59,6 +59,9 @@ https://capfroggy.github.io/replyflow-kit/services/sms-review-automation-sample/
 PDF statement to Excel sample:
 https://capfroggy.github.io/replyflow-kit/services/pdf-bank-statement-excel-sample/
 
+RFP document dashboard sample:
+https://capfroggy.github.io/replyflow-kit/services/rfp-document-dashboard-sample/
+
 Cinematic scroll demos:
 https://capfroggy.github.io/replyflow-kit/services/cinematic-scroll-demo/
 https://capfroggy.github.io/replyflow-kit/services/interactive-product-scroll-demo/
@@ -87,6 +90,7 @@ https://capfroggy.github.io/replyflow-kit/services/google-index-checker-sample/
 https://capfroggy.github.io/replyflow-kit/services/google-chat-sheets-sample/
 https://capfroggy.github.io/replyflow-kit/services/sms-review-automation-sample/
 https://capfroggy.github.io/replyflow-kit/services/pdf-bank-statement-excel-sample/
+https://capfroggy.github.io/replyflow-kit/services/rfp-document-dashboard-sample/
 https://capfroggy.github.io/replyflow-kit/services/cinematic-scroll-demo/
 https://capfroggy.github.io/replyflow-kit/services/interactive-product-scroll-demo/
 

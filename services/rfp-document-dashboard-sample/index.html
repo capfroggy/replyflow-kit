@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RFP Document Dashboard Sample | Developer Services</title>
+    <meta
+      name="description"
+      content="Sample searchable dashboard for centralizing RFP, RFQ, PDF, Word, Excel, and solicitation documents into one clean review queue."
+    />
+    <meta property="og:title" content="RFP Document Dashboard Sample" />
+    <meta
+      property="og:description"
+      content="A fixed-scope automation sample for scraping documents, extracting metadata, and turning scattered files into a searchable dashboard."
+    />
+    <meta property="og:image" content="../../assets/replyflow-preview.jpg" />
+    <link rel="stylesheet" href="../../assets/site.css" />
+    <style>
+      .dashboard-shell {
+        display: grid;
+        gap: 16px;
+        margin-top: 28px;
+      }
+
+      .toolbar {
+        display: grid;
+        grid-template-columns: minmax(0, 1.6fr) repeat(2, minmax(150px, 0.55fr));
+        gap: 10px;
+        align-items: end;
+      }
+
+      .filter-field {
+        display: grid;
+        gap: 7px;
+      }
+
+      .filter-field label {
+        color: var(--teal-dark);
+        font-size: 0.78rem;
+        font-weight: 900;
+        text-transform: uppercase;
+      }
+
+      .filter-field input,
+      .filter-field select {
+        width: 100%;
+        min-height: 44px;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: #fff;
+        color: var(--foreground);
+        font: inherit;
+        padding: 0 12px;
+      }
+
+      .metric-row {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 10px;
+      }
+
+      .metric {
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: #fff;
+        padding: 18px;
+      }
+
+      .metric strong {
+        display: block;
+        font-size: 1.55rem;
+        line-height: 1;
+      }
+
+      .metric span {
+        display: block;
+        margin-top: 8px;
+        color: var(--muted);
+        font-size: 0.9rem;
+        line-height: 1.35;
+      }
+
+      .status-pill {
+        display: inline-flex;
+        align-items: center;
+        min-height: 28px;
+        border-radius: 999px;
+        padding: 0 10px;
+        color: #fff;
+        font-size: 0.82rem;
+        font-weight: 800;
+        white-space: nowrap;
+      }
+
+      .status-open {
+        background: var(--teal);
+      }
+
+      .status-watch {
+        background: var(--gold);
+      }
+
+      .status-closed {
+        background: var(--coral);
+      }
+
+      .note-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 12px;
+        margin-top: 28px;
+      }
+
+      .small-note {
+        border-left: 4px solid var(--teal);
+      }
+
+      .result-count {
+        color: var(--muted);
+        line-height: 1.45;
+      }
+
+      @media (max-width: 820px) {
+        .toolbar,
+        .metric-row,
+        .note-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="../../">ReplyFlow Kit</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="../../follow-up-message-generator/">Generator</a>
+        <a href="../../resources/">Resources</a>
+        <a href="../">Services</a>
+        <a href="../../sample/">Free sample</a>
+        <a href="../../niches/">Niches</a>
+        <a href="../../es/">Espanol</a>
+      </nav>
+    </header>
+
+    <section class="hero" aria-label="RFP dashboard sample">
+      <div class="hero-inner">
+        <p class="eyebrow">Data extraction and search dashboard sample</p>
+        <h1>RFPs, PDFs, and spreadsheets turned into one review queue.</h1>
+        <p class="lede">
+          A practical starter for teams that need documents gathered from
+          multiple sources, normalized into searchable rows, and reviewed by
+          deadline, buyer, region, keyword, and document type.
+        </p>
+        <div class="actions">
+          <a class="button primary" href="../request/">Request similar build</a>
+          <a
+            class="button secondary"
+            href="https://www.upwork.com/services/product/development-it-a-web-tool-automation-or-landing-page-for-your-business-2085462295735290357?ref=project_share"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Hire on Upwork
+          </a>
+          <a class="button secondary" href="../">Back to services</a>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <section class="section">
+        <p class="eyebrow">Interactive proof</p>
+        <h2>Search a sample solicitation queue.</h2>
+        <p class="lede">
+          This demo uses synthetic records, but the same pattern works for
+          scraped PDF, Word, Excel, CSV, and web listing sources after a client
+          approves the source list and data handling process.
+        </p>
+
+        <div class="dashboard-shell">
+          <div class="toolbar">
+            <div class="filter-field">
+              <label for="query">Search</label>
+              <input
+                id="query"
+                type="search"
+                placeholder="Search buyer, keyword, location, or document..."
+                autocomplete="off"
+              />
+            </div>
+            <div class="filter-field">
+              <label for="type">Document type</label>
+              <select id="type">
+                <option value="all">All types</option>
+                <option value="RFP">RFP</option>
+                <option value="RFQ">RFQ</option>
+                <option value="Bid">Bid</option>
+                <option value="Addendum">Addendum</option>
+              </select>
+            </div>
+            <div class="filter-field">
+              <label for="status">Status</label>
+              <select id="status">
+                <option value="all">All statuses</option>
+                <option value="Open">Open</option>
+                <option value="Watch">Watch</option>
+                <option value="Closed">Closed</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="metric-row" aria-label="Dashboard metrics">
+            <div class="metric">
+              <strong id="metric-count">0</strong>
+              <span>matching records</span>
+            </div>
+            <div class="metric">
+              <strong id="metric-open">0</strong>
+              <span>open opportunities</span>
+            </div>
+            <div class="metric">
+              <strong id="metric-sources">0</strong>
+              <span>source systems</span>
+            </div>
+            <div class="metric">
+              <strong id="metric-next">0</strong>
+              <span>days to nearest deadline</span>
+            </div>
+          </div>
+
+          <p class="result-count" id="result-count"></p>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Status</th>
+                  <th>Buyer</th>
+                  <th>Opportunity</th>
+                  <th>Type</th>
+                  <th>Source</th>
+                  <th>Deadline</th>
+                  <th>Matched keywords</th>
+                </tr>
+              </thead>
+              <tbody id="records"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="split">
+          <article class="panel">
+            <p class="eyebrow">Build scope</p>
+            <h2>Useful first version.</h2>
+            <ul>
+              <li>Source list import for public portals, URLs, and file folders</li>
+              <li>PDF, DOCX, XLSX, CSV, and HTML text extraction pipeline</li>
+              <li>Normalized rows for buyer, title, deadline, source, region, and keywords</li>
+              <li>Searchable static dashboard or lightweight internal web app</li>
+              <li>Export back to CSV or Excel for review and reporting</li>
+            </ul>
+          </article>
+          <article class="panel">
+            <p class="eyebrow">Safe data path</p>
+            <h2>Designed around approved sources.</h2>
+            <p>
+              The delivery starts with public or client-approved documents,
+              avoids storing sensitive credentials in the code, and keeps the
+              first version simple enough for handoff, hosting, and future
+              rule additions.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <p class="eyebrow">Delivery notes</p>
+        <h2>What the client receives.</h2>
+        <div class="note-grid">
+          <article class="panel small-note">
+            <h3>Extractor</h3>
+            <p>
+              A documented script that reads approved URLs or files, extracts
+              text and metadata, and writes a clean CSV/JSON dataset.
+            </p>
+          </article>
+          <article class="panel small-note">
+            <h3>Dashboard</h3>
+            <p>
+              A browser-viewable dashboard with filters, search, status flags,
+              source links, and summary counts.
+            </p>
+          </article>
+          <article class="panel small-note">
+            <h3>Handoff</h3>
+            <p>
+              Setup notes, sample data, update commands, limitations, and the
+              next source rules to add once accuracy is reviewed.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="section">
+        <p>ReplyFlow Kit. Product files and custom deliverables are sent after confirmed payment.</p>
+      </div>
+    </footer>
+
+    <script>
+      const rows = [
+        {
+          status: "Open",
+          buyer: "Metro Facilities Group",
+          title: "Security guard services for municipal buildings",
+          type: "RFP",
+          source: "City procurement portal",
+          deadline: "2026-08-14",
+          keywords: "security, guard, facilities, contract",
+          location: "California"
+        },
+        {
+          status: "Watch",
+          buyer: "North County Schools",
+          title: "Campus patrol and incident reporting system",
+          type: "RFQ",
+          source: "PDF bulletin",
+          deadline: "2026-08-19",
+          keywords: "patrol, reporting, schools, compliance",
+          location: "Texas"
+        },
+        {
+          status: "Open",
+          buyer: "Harbor Logistics Authority",
+          title: "Visitor screening and access control support",
+          type: "Bid",
+          source: "Excel bid list",
+          deadline: "2026-08-11",
+          keywords: "screening, access control, logistics",
+          location: "Florida"
+        },
+        {
+          status: "Closed",
+          buyer: "Regional Health Network",
+          title: "Addendum 2 for overnight security coverage",
+          type: "Addendum",
+          source: "Document archive",
+          deadline: "2026-08-05",
+          keywords: "addendum, overnight, health, staffing",
+          location: "Nevada"
+        },
+        {
+          status: "Open",
+          buyer: "State Housing Agency",
+          title: "Roving inspection and site monitoring services",
+          type: "RFP",
+          source: "Public notice page",
+          deadline: "2026-08-22",
+          keywords: "inspection, monitoring, housing, sites",
+          location: "Arizona"
+        }
+      ];
+
+      const query = document.querySelector("#query");
+      const type = document.querySelector("#type");
+      const status = document.querySelector("#status");
+      const body = document.querySelector("#records");
+      const count = document.querySelector("#result-count");
+      const metricCount = document.querySelector("#metric-count");
+      const metricOpen = document.querySelector("#metric-open");
+      const metricSources = document.querySelector("#metric-sources");
+      const metricNext = document.querySelector("#metric-next");
+
+      function statusClass(value) {
+        if (value === "Open") return "status-open";
+        if (value === "Watch") return "status-watch";
+        return "status-closed";
+      }
+
+      function daysUntil(date) {
+        const today = new Date("2026-08-06T00:00:00");
+        const due = new Date(`${date}T00:00:00`);
+        return Math.max(0, Math.ceil((due - today) / 86400000));
+      }
+
+      function render() {
+        const term = query.value.trim().toLowerCase();
+        const selectedType = type.value;
+        const selectedStatus = status.value;
+        const filtered = rows.filter((row) => {
+          const haystack = [
+            row.status,
+            row.buyer,
+            row.title,
+            row.type,
+            row.source,
+            row.deadline,
+            row.keywords,
+            row.location
+          ]
+            .join(" ")
+            .toLowerCase();
+
+          return (
+            (selectedType === "all" || row.type === selectedType) &&
+            (selectedStatus === "all" || row.status === selectedStatus) &&
+            (!term || haystack.includes(term))
+          );
+        });
+
+        body.innerHTML = filtered
+          .map(
+            (row) => `
+              <tr>
+                <td><span class="status-pill ${statusClass(row.status)}">${row.status}</span></td>
+                <td>${row.buyer}<br /><small>${row.location}</small></td>
+                <td>${row.title}</td>
+                <td>${row.type}</td>
+                <td>${row.source}</td>
+                <td>${row.deadline}<br /><small>${daysUntil(row.deadline)} days</small></td>
+                <td>${row.keywords}</td>
+              </tr>
+            `
+          )
+          .join("");
+
+        const openCount = filtered.filter((row) => row.status === "Open").length;
+        const sourceCount = new Set(filtered.map((row) => row.source)).size;
+        const activeRows = filtered.filter((row) => row.status !== "Closed");
+        const nearest = activeRows.length
+          ? Math.min(...activeRows.map((row) => daysUntil(row.deadline)))
+          : 0;
+
+        metricCount.textContent = filtered.length;
+        metricOpen.textContent = openCount;
+        metricSources.textContent = sourceCount;
+        metricNext.textContent = nearest;
+        count.textContent = `Showing ${filtered.length} of ${rows.length} sample records.`;
+      }
+
+      [query, type, status].forEach((control) => {
+        control.addEventListener("input", render);
+        control.addEventListener("change", render);
+      });
+
+      render();
+    </script>
+    <script src="../../assets/site.js"></script>
+  </body>
+</html>

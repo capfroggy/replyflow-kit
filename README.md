@@ -20,6 +20,7 @@ paid product files are not published here.
 - Google Chat to Sheets sample: https://capfroggy.github.io/replyflow-kit/services/google-chat-sheets-sample/
 - SMS review automation sample: https://capfroggy.github.io/replyflow-kit/services/sms-review-automation-sample/
 - PDF statement to Excel sample: https://capfroggy.github.io/replyflow-kit/services/pdf-bank-statement-excel-sample/
+- RFP document dashboard sample: https://capfroggy.github.io/replyflow-kit/services/rfp-document-dashboard-sample/
 - Cinematic scroll demo: https://capfroggy.github.io/replyflow-kit/services/cinematic-scroll-demo/
 - Interactive product scroll demo: https://capfroggy.github.io/replyflow-kit/services/interactive-product-scroll-demo/
 - Upwork Project Catalog: https://www.upwork.com/services/product/development-it-a-web-tool-automation-or-landing-page-for-your-business-2085462295735290357?ref=project_share
@@ -41,6 +42,7 @@ Preview image: `assets/replyflow-preview.jpg`
 - WhatsApp Follow-up Mini Pack: $9
 - Developer services: $49+ fixed-scope web, automation, integration, workflow, CRM, SMS, Google Workspace, and copy deliverables
 - PDF/data extraction workflow: $99+ fixed-scope converter or parser handoff
+- RFP/document dashboard workflow: $149+ fixed-scope document intake, normalized rows, searchable dashboard, and export handoff
 - Cinematic landing page: $600 contest/demo target, static page with scroll animation
 - Upwork Project Catalog: approved packaged service with $19, $49, and $99 tiers
 - ReplyFlow Custom Setup: $49
@@ -70,7 +72,7 @@ Primary GitHub Pages public URL:
 
 Versioned GitHub release:
 
-- https://github.com/capfroggy/replyflow-kit/releases/tag/v0.13-cinematic-scroll-demos
+- https://github.com/capfroggy/replyflow-kit/releases/tag/v0.14-rfp-dashboard-sample
 
 Do not upload the paid product zip to a public repository. Send product files
 manually after confirming payment.
