@@ -8,17 +8,20 @@ paid product files are not published here.
 
 ## Quick links
 
-- Primary public site: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.9-developer-services/
-- Free script sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.9-developer-services/sample/
-- Free generator: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.9-developer-services/follow-up-message-generator/
-- Template library: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.9-developer-services/resources/
-- Services: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.9-developer-services/services/
-- Email setup sample deliverable: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.9-developer-services/services/email-marketing-setup-sample/
-- CRM audit sample deliverable: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.9-developer-services/services/crm-workflow-audit-sample/
-- Invoice workflow sample deliverable: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.9-developer-services/services/invoice-reminder-workflow-sample/
+- Primary public site: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/
+- Free script sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/sample/
+- Free generator: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/follow-up-message-generator/
+- Template library: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/resources/
+- Services: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/services/
+- Email setup sample deliverable: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/services/email-marketing-setup-sample/
+- CRM audit sample deliverable: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/services/crm-workflow-audit-sample/
+- Invoice workflow sample deliverable: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/services/invoice-reminder-workflow-sample/
+- Google index checker sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/services/google-index-checker-sample/
+- Google Chat to Sheets sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/services/google-chat-sheets-sample/
+- SMS review automation sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/services/sms-review-automation-sample/
 - Service request form: https://github.com/capfroggy/replyflow-kit/issues/new?template=service-request.yml
-- Niche samples: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.9-developer-services/niches/
-- Spanish WhatsApp offer: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.9-developer-services/es/kit-whatsapp-negocios/
+- Niche samples: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/niches/
+- Spanish WhatsApp offer: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/es/kit-whatsapp-negocios/
 - Feedback discussion: https://github.com/capfroggy/replyflow-kit/discussions/1
 - Start here: https://github.com/capfroggy/replyflow-kit/blob/main/START-HERE.md
 - Share copy: https://github.com/capfroggy/replyflow-kit/blob/main/SHARE-COPY.md
@@ -32,7 +35,7 @@ Preview image: `assets/replyflow-preview.jpg`
 - Free niche samples: cleaning, plumbing, HVAC, roofing, lawn care, and invoice reminders
 - ReplyFlow Kit: $19, with dedicated cleaning, plumbing, HVAC, roofing, lawn care, and invoice collection packs
 - WhatsApp Follow-up Mini Pack: $9
-- Developer services: $49+ fixed-scope web, automation, integration, workflow, CRM, and copy deliverables
+- Developer services: $49+ fixed-scope web, automation, integration, workflow, CRM, SMS, Google Workspace, and copy deliverables
 - ReplyFlow Custom Setup: $49
 
 ## Payment route
@@ -55,8 +58,8 @@ distribution.
 
 Primary GitHub-backed public URL:
 
-- https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.9-developer-services/
-- https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.9-developer-services/sample/
+- https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/
+- https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/sample/
 
 Secondary GitHub Pages URL once Pages finishes processing:
 

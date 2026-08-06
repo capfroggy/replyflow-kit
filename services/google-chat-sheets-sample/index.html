@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Google Chat To Sheets Sample | Developer Services</title>
+    <meta
+      name="description"
+      content="Sample workflow for logging Google Chat messages into Google Sheets with metadata, dedupe, and handoff notes."
+    />
+    <meta property="og:title" content="Google Chat To Sheets Sample" />
+    <meta
+      property="og:description"
+      content="A Google Workspace automation sample for capturing Google Chat messages into a spreadsheet."
+    />
+    <meta property="og:image" content="../../assets/replyflow-preview.jpg" />
+    <link rel="stylesheet" href="../../assets/site.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="../../">ReplyFlow Kit</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="../../follow-up-message-generator/">Generator</a>
+        <a href="../../resources/">Resources</a>
+        <a href="../">Services</a>
+        <a href="../../sample/">Free sample</a>
+        <a href="../../niches/">Niches</a>
+        <a href="../../es/">Espanol</a>
+      </nav>
+    </header>
+
+    <section class="hero" aria-label="Google Chat to Sheets sample">
+      <div class="hero-inner">
+        <p class="eyebrow">Google Workspace sample</p>
+        <h1>Send Google Chat messages into a clean Sheet.</h1>
+        <p class="lede">
+          A practical Apps Script workflow for teams that need searchable
+          message logs, simple reporting, or lightweight intake tracking.
+        </p>
+        <div class="actions">
+          <a class="button primary" href="../request/">Request similar build</a>
+          <a class="button secondary" href="../">Back to services</a>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <section class="section">
+        <div class="split">
+          <article class="panel">
+            <p class="eyebrow">Captured fields</p>
+            <h2>The Sheet stays useful.</h2>
+            <ul>
+              <li>Received timestamp</li>
+              <li>Space or room name</li>
+              <li>Thread identifier</li>
+              <li>Sender name or email</li>
+              <li>Message text</li>
+              <li>Dedupe key for repeat events</li>
+            </ul>
+          </article>
+          <article class="panel">
+            <p class="eyebrow">Workflow</p>
+            <h2>Small, auditable setup.</h2>
+            <p>
+              The first version can be delivered as an Apps Script file and a
+              setup checklist. It uses a script lock and simple event dedupe so
+              duplicate webhooks do not create noisy repeated rows.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <p class="eyebrow">Example Sheet</p>
+        <h2>Rows a client can filter immediately.</h2>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>received_at</th>
+                <th>space</th>
+                <th>sender</th>
+                <th>message</th>
+                <th>dedupe_key</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2026-08-06 14:10</td>
+                <td>Support intake</td>
+                <td>client@example.com</td>
+                <td>Need help with invoice #1042.</td>
+                <td>spaces/AAA|1042</td>
+              </tr>
+              <tr>
+                <td>2026-08-06 14:18</td>
+                <td>Support intake</td>
+                <td>team@example.com</td>
+                <td>Assigned to billing.</td>
+                <td>spaces/AAA|1043</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="panel">
+          <p class="eyebrow">Handoff</p>
+          <h2>What the client receives.</h2>
+          <p>
+            The deliverable can include Apps Script code, Sheet column layout,
+            deployment notes, test cases, and clear next steps for the client's
+            Google Workspace admin.
+          </p>
+          <div class="actions">
+            <a class="button primary" href="../request/">Request this integration</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="section">
+        <p>ReplyFlow Kit. Product files and custom deliverables are sent after confirmed payment.</p>
+      </div>
+    </footer>
+    <script src="../../assets/site.js"></script>
+  </body>
+</html>

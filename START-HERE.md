@@ -5,25 +5,28 @@ development, automation, follow-up workflows, and practical AI-assisted tools.
 
 ## Useful Free Links
 
-- Public site: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.9-developer-services/
-- Free script sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.9-developer-services/sample/
-- Free generator: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.9-developer-services/follow-up-message-generator/
-- Template library: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.9-developer-services/resources/
-- Services: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.9-developer-services/services/
-- Email setup sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.9-developer-services/services/email-marketing-setup-sample/
-- CRM audit sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.9-developer-services/services/crm-workflow-audit-sample/
-- Invoice workflow sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.9-developer-services/services/invoice-reminder-workflow-sample/
+- Public site: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/
+- Free script sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/sample/
+- Free generator: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/follow-up-message-generator/
+- Template library: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/resources/
+- Services: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/services/
+- Email setup sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/services/email-marketing-setup-sample/
+- CRM audit sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/services/crm-workflow-audit-sample/
+- Invoice workflow sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/services/invoice-reminder-workflow-sample/
+- Google index checker sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/services/google-index-checker-sample/
+- Google Chat to Sheets sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/services/google-chat-sheets-sample/
+- SMS review automation sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/services/sms-review-automation-sample/
 - Service request form: https://github.com/capfroggy/replyflow-kit/issues/new?template=service-request.yml
-- Niche samples: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.9-developer-services/niches/
-- Spanish WhatsApp offer: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.9-developer-services/es/kit-whatsapp-negocios/
-- Latest release: https://github.com/capfroggy/replyflow-kit/releases/tag/v0.9-developer-services
+- Niche samples: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/niches/
+- Spanish WhatsApp offer: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.10-technical-samples/es/kit-whatsapp-negocios/
+- Latest release: https://github.com/capfroggy/replyflow-kit/releases/tag/v0.10-technical-samples
 - Feedback discussion: https://github.com/capfroggy/replyflow-kit/discussions/1
 
 ## Paid Offers
 
 - ReplyFlow Kit: $19, with cleaning, plumbing, HVAC, roofing, lawn care, and invoice collection packs
 - WhatsApp Follow-up Mini Pack: $9
-- Developer services: $49+ fixed-scope web, automation, integration, workflow, CRM, and copy deliverables
+- Developer services: $49+ fixed-scope web, automation, integration, workflow, CRM, SMS, Google Workspace, and copy deliverables
 - ReplyFlow Custom Setup: $49
 
 ## Reusable PayPal.Me Links

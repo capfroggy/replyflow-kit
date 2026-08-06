@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SMS Review Automation Sample | Developer Services</title>
+    <meta
+      name="description"
+      content="Sample webhook workflow for sending SMS review requests after completed jobs with duplicate prevention and status logging."
+    />
+    <meta property="og:title" content="SMS Review Automation Sample" />
+    <meta
+      property="og:description"
+      content="A fixed-scope SMS workflow sample for review requests after completed service jobs."
+    />
+    <meta property="og:image" content="../../assets/replyflow-preview.jpg" />
+    <link rel="stylesheet" href="../../assets/site.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="../../">ReplyFlow Kit</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="../../follow-up-message-generator/">Generator</a>
+        <a href="../../resources/">Resources</a>
+        <a href="../">Services</a>
+        <a href="../../sample/">Free sample</a>
+        <a href="../../niches/">Niches</a>
+        <a href="../../es/">Espanol</a>
+      </nav>
+    </header>
+
+    <section class="hero" aria-label="SMS review automation sample">
+      <div class="hero-inner">
+        <p class="eyebrow">Webhook automation sample</p>
+        <h1>Trigger review-request texts after completed jobs.</h1>
+        <p class="lede">
+          A small backend workflow for service teams that want consistent SMS
+          review requests without sending duplicates or losing delivery notes.
+        </p>
+        <div class="actions">
+          <a class="button primary" href="../request/">Request similar build</a>
+          <a class="button secondary" href="../">Back to services</a>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <section class="section">
+        <div class="split">
+          <article class="panel">
+            <p class="eyebrow">Webhook input</p>
+            <h2>Minimal job-completed payload.</h2>
+            <ul>
+              <li>Job ID for duplicate prevention</li>
+              <li>Customer name</li>
+              <li>Customer phone number</li>
+              <li>Review link</li>
+              <li>Optional job or technician notes</li>
+            </ul>
+          </article>
+          <article class="panel">
+            <p class="eyebrow">Delivery logic</p>
+            <h2>Clear and reversible.</h2>
+            <p>
+              The workflow can start as a Node webhook connected to Twilio or a
+              client-approved SMS provider. Each send is logged with timestamp,
+              recipient, job ID, provider message ID, and any delivery error.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <p class="eyebrow">Example message</p>
+        <h2>Short, polite review request.</h2>
+        <div class="sample-list">
+          <article class="script">
+            <h2>After job completion</h2>
+            <p>
+              Hi Ana, thanks for choosing us today. When you have a minute,
+              could you leave a quick review? https://example.com/review
+            </p>
+          </article>
+          <article class="script">
+            <h2>Duplicate prevention</h2>
+            <p>
+              If the same job ID is received twice, the webhook returns a
+              skipped response instead of sending another text.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="panel">
+          <p class="eyebrow">Handoff</p>
+          <h2>What the client receives.</h2>
+          <p>
+            The deliverable can include webhook code, environment-variable
+            setup, local test instructions, sample payloads, logging format,
+            and a short deployment checklist.
+          </p>
+          <div class="actions">
+            <a class="button primary" href="../request/">Request this workflow</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="section">
+        <p>ReplyFlow Kit. Product files and custom deliverables are sent after confirmed payment.</p>
+      </div>
+    </footer>
+    <script src="../../assets/site.js"></script>
+  </body>
+</html>
