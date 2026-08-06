@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WhatsApp Bot Clasificador Sample | ReplyFlow Kit</title>
+    <meta
+      name="description"
+      content="Demo interactivo de bot WhatsApp para responder mensajes entrantes, clasificar consultas, asignar prioridad y preparar una notificacion por correo."
+    />
+    <meta property="og:title" content="WhatsApp Bot Clasificador Sample" />
+    <meta
+      property="og:description"
+      content="Simula un bot de WhatsApp inbound que detecta temas, responde con plantillas seguras y prepara una alerta de correo para el equipo."
+    />
+    <meta property="og:image" content="../../assets/upwork-ai-automation-cover.png" />
+    <link rel="stylesheet" href="../../assets/site.css" />
+    <style>
+      .bot-hero {
+        min-height: 70vh;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid var(--line);
+        background:
+          linear-gradient(90deg, rgba(246, 248, 251, 0.98) 0%, rgba(246, 248, 251, 0.9) 48%, rgba(246, 248, 251, 0.18) 100%),
+          url("../../assets/upwork-ai-automation-cover.png") center right / cover no-repeat;
+      }
+
+      .bot-tool {
+        display: grid;
+        grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+        gap: 12px;
+        align-items: start;
+        margin-top: 28px;
+      }
+
+      .bot-panel,
+      .route-card {
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: var(--cream);
+        padding: 22px;
+      }
+
+      .bot-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+      }
+
+      label {
+        color: var(--foreground);
+        font-weight: 800;
+      }
+
+      textarea,
+      input,
+      select {
+        width: 100%;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: #fff;
+        color: var(--foreground);
+        font: inherit;
+      }
+
+      textarea {
+        min-height: 170px;
+        padding: 14px;
+        resize: vertical;
+        line-height: 1.5;
+      }
+
+      input,
+      select {
+        min-height: 44px;
+        padding: 0 12px;
+      }
+
+      .route-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 12px;
+        margin-top: 18px;
+      }
+
+      .route-card strong {
+        display: block;
+        margin-bottom: 8px;
+        color: var(--coral);
+      }
+
+      .reply-box,
+      .json-box {
+        min-height: 150px;
+        white-space: pre-wrap;
+      }
+
+      .signal-list {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 12px;
+        margin-top: 28px;
+      }
+
+      .signal {
+        border-top: 3px solid var(--teal);
+        padding-top: 14px;
+      }
+
+      .signal strong {
+        display: block;
+        margin-bottom: 8px;
+      }
+
+      .safe-note {
+        border-left: 4px solid var(--gold);
+        background: #fff8e7;
+        color: #4e3a09;
+        padding: 12px 14px;
+        line-height: 1.5;
+      }
+
+      @media (max-width: 940px) {
+        .bot-hero {
+          min-height: 64vh;
+          background:
+            linear-gradient(180deg, rgba(246, 248, 251, 0.98) 0%, rgba(246, 248, 251, 0.92) 100%),
+            url("../../assets/upwork-ai-automation-cover.png") center / cover no-repeat;
+        }
+
+        .bot-tool,
+        .bot-grid,
+        .route-grid,
+        .signal-list {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="../../">ReplyFlow Kit</a>
+      <nav class="nav" aria-label="Navegacion principal">
+        <a href="../../follow-up-message-generator/">Generator</a>
+        <a href="../">Services</a>
+        <a href="../full-stack-developer-automation/">Full-stack</a>
+        <a href="../../es/kit-whatsapp-negocios/">WhatsApp $9</a>
+        <a href="../../es/">Espanol</a>
+      </nav>
+    </header>
+
+    <section class="bot-hero" aria-label="WhatsApp bot classifier sample">
+      <div class="hero-inner">
+        <p class="eyebrow">Demo de automatizacion WhatsApp inbound</p>
+        <h1>Bot que responde, clasifica y avisa al equipo correcto.</h1>
+        <p class="lede">
+          Muestra practica para proyectos donde un negocio necesita atender
+          mensajes entrantes de WhatsApp, detectar el tema, enviar una primera
+          respuesta segura y mandar una alerta por correo o CRM al equipo que
+          debe actuar.
+        </p>
+        <div class="actions">
+          <a class="button primary" href="#demo">Probar demo</a>
+          <a class="button secondary" href="../request/">Solicitar este flujo</a>
+          <a class="button secondary" href="../full-stack-developer-automation/">
+            Servicios full-stack
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <section class="section" id="demo">
+        <p class="eyebrow">Simulador</p>
+        <h2>Clasifica un mensaje entrante.</h2>
+        <div class="bot-tool">
+          <section class="bot-panel" aria-label="Mensaje entrante">
+            <div class="field">
+              <label for="customerName">Nombre del contacto</label>
+              <input id="customerName" value="Daniela" />
+            </div>
+            <div class="bot-grid">
+              <div class="field">
+                <label for="businessType">Tipo de negocio</label>
+                <select id="businessType">
+                  <option value="clinica">Clinica o consultorio</option>
+                  <option value="servicio">Servicio a domicilio</option>
+                  <option value="curso">Curso o coach</option>
+                  <option value="tienda">Tienda o ecommerce</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="channel">Canal interno</label>
+                <select id="channel">
+                  <option value="email">Correo</option>
+                  <option value="crm">CRM</option>
+                  <option value="sheet">Google Sheet</option>
+                </select>
+              </div>
+            </div>
+            <div class="field">
+              <label for="incomingMessage">Mensaje WhatsApp</label>
+              <textarea id="incomingMessage" spellcheck="false"></textarea>
+            </div>
+            <div class="actions">
+              <button class="button primary" id="classifyButton" type="button">
+                Clasificar
+              </button>
+              <button class="button secondary" id="quoteButton" type="button">
+                Ejemplo cotizacion
+              </button>
+              <button class="button secondary" id="supportButton" type="button">
+                Ejemplo soporte
+              </button>
+              <button class="button secondary" id="paymentButton" type="button">
+                Ejemplo pago
+              </button>
+            </div>
+          </section>
+
+          <section class="bot-panel" aria-live="polite" aria-label="Resultado">
+            <p class="eyebrow">Resultado</p>
+            <h2 id="topicTitle">Consulta general</h2>
+            <div class="route-grid">
+              <article class="route-card">
+                <strong id="priorityValue">Normal</strong>
+                <span>Prioridad</span>
+              </article>
+              <article class="route-card">
+                <strong id="inboxValue">general@empresa.com</strong>
+                <span>Bandeja sugerida</span>
+              </article>
+              <article class="route-card">
+                <strong id="slaValue">Responder hoy</strong>
+                <span>SLA sugerido</span>
+              </article>
+            </div>
+            <div class="sample-list">
+              <article class="bot-panel">
+                <p class="eyebrow">Respuesta WhatsApp</p>
+                <pre class="reply-box" id="replyBox"></pre>
+              </article>
+              <article class="bot-panel">
+                <p class="eyebrow">Payload para correo/CRM</p>
+                <pre class="json-box" id="payloadBox"></pre>
+              </article>
+              <p class="safe-note">
+                Este demo es para mensajes entrantes y seguimiento permitido.
+                No esta pensado para spam, listas compradas, evasion de limites
+                ni envios masivos fuera de politicas de WhatsApp.
+              </p>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <section class="section">
+        <p class="eyebrow">Arquitectura</p>
+        <h2>Como se entrega en un proyecto real.</h2>
+        <div class="signal-list">
+          <article class="signal">
+            <strong>1. Entrada</strong>
+            <span>Webhook de WhatsApp Cloud API, Twilio, CRM, formulario o captura manual inicial.</span>
+          </article>
+          <article class="signal">
+            <strong>2. Clasificacion</strong>
+            <span>Reglas de palabras clave, prioridad, horario, idioma y fallback a humano.</span>
+          </article>
+          <article class="signal">
+            <strong>3. Respuesta</strong>
+            <span>Plantilla segura con variables, tono del negocio y aviso cuando requiere revision.</span>
+          </article>
+          <article class="signal">
+            <strong>4. Handoff</strong>
+            <span>Correo, Google Sheet, CRM, Slack, Trello o dashboard con estado y siguiente accion.</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="split">
+          <article class="panel">
+            <p class="eyebrow">Paquetes</p>
+            <h2>Alcance pequeño para cerrar rapido.</h2>
+            <ul>
+              <li>Mapa de flujo y respuestas: desde $49</li>
+              <li>Bot inbound con clasificacion y correo: desde $149</li>
+              <li>Bot con CRM/Sheet, logs y handoff: desde $299</li>
+              <li>Entrega con codigo fuente, datos de prueba y guia de setup</li>
+            </ul>
+          </article>
+          <article class="panel">
+            <p class="eyebrow">Stack posible</p>
+            <h2>Node.js o Python.</h2>
+            <p>
+              La primera version puede correr como webhook ligero en Node.js,
+              Python/FastAPI, PHP o Apps Script segun la plataforma del cliente.
+              Las credenciales de WhatsApp, Twilio, correo, CRM o Google
+              siempre quedan bajo control del cliente.
+            </p>
+            <div class="actions">
+              <a class="button primary" href="../request/">Solicitar este bot</a>
+              <a
+                class="button secondary"
+                href="https://www.paypal.com/paypalme/AMEZQUITASALINAS/49USD"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Deposito $49
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="panel">
+          <p class="eyebrow">Node.js starter</p>
+          <h2>Handler base para convertirlo en webhook.</h2>
+          <pre class="script"><code>const routes = {
+  cotizacion: { inbox: "ventas@empresa.com", priority: "Alta" },
+  soporte: { inbox: "soporte@empresa.com", priority: "Alta" },
+  pago: { inbox: "cobranza@empresa.com", priority: "Media" },
+  agenda: { inbox: "agenda@empresa.com", priority: "Media" },
+  general: { inbox: "general@empresa.com", priority: "Normal" }
+};
+
+function classifyWhatsAppMessage(text) {
+  const normalized = text.toLowerCase();
+  if (/precio|cotiz|costo|presupuesto/.test(normalized)) return "cotizacion";
+  if (/falla|problema|soporte|no funciona/.test(normalized)) return "soporte";
+  if (/pago|factura|deposito|adeudo/.test(normalized)) return "pago";
+  if (/cita|agenda|horario|reservar/.test(normalized)) return "agenda";
+  return "general";
+}</code></pre>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="section">
+        <p>ReplyFlow Kit. Automatizacion inbound para WhatsApp, CRM, correo y handoff humano.</p>
+      </div>
+    </footer>
+
+    <script>
+      const rules = {
+        cotizacion: {
+          label: "Cotizacion o venta",
+          priority: "Alta",
+          inbox: "ventas@empresa.com",
+          sla: "15-30 min",
+          keywords: ["precio", "cotiz", "costo", "presupuesto", "cuanto", "paquete"],
+          reply: "Hola {{name}}, gracias por escribir. Si buscas precio para {{business}}, te puedo ayudar. Para darte una respuesta correcta, confirmame el servicio exacto, ciudad y fecha tentativa."
+        },
+        soporte: {
+          label: "Soporte o problema",
+          priority: "Alta",
+          inbox: "soporte@empresa.com",
+          sla: "30 min",
+          keywords: ["falla", "problema", "soporte", "ayuda", "no funciona", "error", "urgente"],
+          reply: "Hola {{name}}, ya registre tu mensaje como soporte. Para revisarlo rapido, enviame una captura, el numero de pedido o cuenta, y que paso antes del problema."
+        },
+        pago: {
+          label: "Pago o factura",
+          priority: "Media",
+          inbox: "cobranza@empresa.com",
+          sla: "Hoy",
+          keywords: ["pago", "factura", "deposito", "transferencia", "adeudo", "recibo", "comprobante"],
+          reply: "Hola {{name}}, gracias. Voy a pasar tu mensaje al area de pagos. Si tienes comprobante, enviamelo aqui para asociarlo con tu cuenta."
+        },
+        agenda: {
+          label: "Agenda o cita",
+          priority: "Media",
+          inbox: "agenda@empresa.com",
+          sla: "Hoy",
+          keywords: ["cita", "agenda", "horario", "reservar", "disponible", "manana", "lunes"],
+          reply: "Hola {{name}}, claro. Para revisar agenda de {{business}}, dime que dia prefieres y si te funciona mejor manana o tarde."
+        },
+        general: {
+          label: "Consulta general",
+          priority: "Normal",
+          inbox: "general@empresa.com",
+          sla: "Responder hoy",
+          keywords: [],
+          reply: "Hola {{name}}, gracias por escribir. Ya recibi tu mensaje y lo voy a pasar al equipo correcto. Si puedes, dime en una frase que necesitas resolver."
+        }
+      };
+
+      const businessLabels = {
+        clinica: "clinica o consultorio",
+        servicio: "servicio a domicilio",
+        curso: "curso o coach",
+        tienda: "tienda o ecommerce"
+      };
+
+      const messageInput = document.getElementById("incomingMessage");
+      const nameInput = document.getElementById("customerName");
+      const businessInput = document.getElementById("businessType");
+      const channelInput = document.getElementById("channel");
+      const topicTitle = document.getElementById("topicTitle");
+      const priorityValue = document.getElementById("priorityValue");
+      const inboxValue = document.getElementById("inboxValue");
+      const slaValue = document.getElementById("slaValue");
+      const replyBox = document.getElementById("replyBox");
+      const payloadBox = document.getElementById("payloadBox");
+
+      function escapePayload(value) {
+        return String(value || "").replace(/\s+/g, " ").trim();
+      }
+
+      function classify(text) {
+        const normalized = text.toLowerCase();
+        const match = Object.entries(rules).find(([key, rule]) => (
+          key !== "general" && rule.keywords.some(keyword => normalized.includes(keyword))
+        ));
+        return match ? match[0] : "general";
+      }
+
+      function render() {
+        const message = messageInput.value;
+        const routeKey = classify(message);
+        const route = rules[routeKey];
+        const name = escapePayload(nameInput.value) || "cliente";
+        const business = businessLabels[businessInput.value] || "negocio";
+        const reply = route.reply
+          .replaceAll("{{name}}", name)
+          .replaceAll("{{business}}", business);
+        const payload = {
+          source: "whatsapp_inbound",
+          contact_name: name,
+          channel: channelInput.value,
+          topic: routeKey,
+          topic_label: route.label,
+          priority: route.priority,
+          inbox: route.inbox,
+          sla: route.sla,
+          message: escapePayload(message),
+          suggested_reply: reply,
+          human_review_required: routeKey === "soporte" || route.priority === "Alta"
+        };
+
+        topicTitle.textContent = route.label;
+        priorityValue.textContent = route.priority;
+        inboxValue.textContent = route.inbox;
+        slaValue.textContent = route.sla;
+        replyBox.textContent = reply;
+        payloadBox.textContent = JSON.stringify(payload, null, 2);
+      }
+
+      document.getElementById("classifyButton").addEventListener("click", render);
+      document.getElementById("quoteButton").addEventListener("click", () => {
+        messageInput.value = "Hola, quiero saber precio y disponibilidad para instalar el servicio esta semana.";
+        render();
+      });
+      document.getElementById("supportButton").addEventListener("click", () => {
+        messageInput.value = "Tengo un problema, no funciona desde ayer y necesito ayuda urgente.";
+        render();
+      });
+      document.getElementById("paymentButton").addEventListener("click", () => {
+        messageInput.value = "Ya hice el pago por transferencia, te mando comprobante y necesito factura.";
+        render();
+      });
+
+      messageInput.value = "Hola, cuanto cuesta el paquete y que horarios tienen disponibles?";
+      render();
+    </script>
+  </body>
+</html>

@@ -15,6 +15,7 @@ development, automation, follow-up workflows, and practical AI-assisted tools.
 - Full-stack developer services issue: https://github.com/capfroggy/replyflow-kit/issues/13
 - CSV to spreadsheet automation sample: https://capfroggy.github.io/replyflow-kit/services/csv-spreadsheet-automation-sample/
 - CSV automation sample issue: https://github.com/capfroggy/replyflow-kit/issues/14
+- WhatsApp bot classifier sample: https://capfroggy.github.io/replyflow-kit/services/whatsapp-bot-classifier-sample/
 - Email setup sample: https://capfroggy.github.io/replyflow-kit/services/email-marketing-setup-sample/
 - CRM audit sample: https://capfroggy.github.io/replyflow-kit/services/crm-workflow-audit-sample/
 - Invoice workflow sample: https://capfroggy.github.io/replyflow-kit/services/invoice-reminder-workflow-sample/
@@ -41,6 +42,7 @@ development, automation, follow-up workflows, and practical AI-assisted tools.
 - Full-stack developer services: $49+ web apps, automation scripts, API integrations, dashboards, Google Sheets, PDF extraction, and CRM workflows
 - AI lead automation service page: fixed-scope Upwork/GitHub request path for intake, CRM updates, follow-up messages, and handoff docs
 - CSV to spreadsheet automation sample: browser-only demo for cleaning imports, normalizing headers, deduping records, previewing rows, and exporting CSV
+- WhatsApp bot classifier sample: Spanish inbound bot demo for message classification, safe replies, priority, inbox routing, and handoff payloads
 - AI lead follow-up automation: $149+ fixed-scope lead intake, qualification, CRM update, and follow-up handoff
 - PDF/data extraction workflow: $99+ fixed-scope converter or parser handoff
 - RFP/document dashboard workflow: $149+ fixed-scope document intake, normalized rows, searchable dashboard, and export handoff
