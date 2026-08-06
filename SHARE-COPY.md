@@ -36,6 +36,9 @@ https://capfroggy.github.io/replyflow-kit/resources/
 Services:
 https://capfroggy.github.io/replyflow-kit/services/
 
+GitHub developer profile:
+https://github.com/capfroggy
+
 Full-stack developer services:
 https://capfroggy.github.io/replyflow-kit/services/full-stack-developer-automation/
 

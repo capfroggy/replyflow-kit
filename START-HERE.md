@@ -6,6 +6,7 @@ development, automation, follow-up workflows, and practical AI-assisted tools.
 ## Useful Free Links
 
 - Public site: https://capfroggy.github.io/replyflow-kit/
+- GitHub developer profile: https://github.com/capfroggy
 - Free script sample: https://capfroggy.github.io/replyflow-kit/sample/
 - Free generator: https://capfroggy.github.io/replyflow-kit/follow-up-message-generator/
 - Template library: https://capfroggy.github.io/replyflow-kit/resources/
