@@ -13,6 +13,7 @@ paid product files are not published here.
 - Free script sample: https://capfroggy.github.io/replyflow-kit/sample/
 - Free generator: https://capfroggy.github.io/replyflow-kit/follow-up-message-generator/
 - Template library: https://capfroggy.github.io/replyflow-kit/resources/
+- Website bug report checklist: https://capfroggy.github.io/replyflow-kit/resources/website-bug-report-checklist/
 - Services: https://capfroggy.github.io/replyflow-kit/services/
 - Full-stack developer services: https://capfroggy.github.io/replyflow-kit/services/full-stack-developer-automation/
 - Web tool / automation scope builder: https://capfroggy.github.io/replyflow-kit/services/web-tool-automation-landing-page/
@@ -50,6 +51,7 @@ Preview image: `assets/replyflow-preview.jpg`
 
 - Free sample: lead, quote, invoice, and WhatsApp scripts
 - Free template library: invoices, quotes, missed calls, and WhatsApp follow-up
+- Website bug report checklist: free bug handoff resource for small website, mobile, JavaScript, form, and API fixes
 - Free niche samples: cleaning, plumbing, HVAC, roofing, lawn care, and invoice reminders
 - ReplyFlow Kit: $19, with dedicated cleaning, plumbing, HVAC, roofing, lawn care, and invoice collection packs
 - WhatsApp Follow-up Mini Pack: $9

@@ -10,6 +10,7 @@ development, automation, follow-up workflows, and practical AI-assisted tools.
 - Free script sample: https://capfroggy.github.io/replyflow-kit/sample/
 - Free generator: https://capfroggy.github.io/replyflow-kit/follow-up-message-generator/
 - Template library: https://capfroggy.github.io/replyflow-kit/resources/
+- Website bug report checklist: https://capfroggy.github.io/replyflow-kit/resources/website-bug-report-checklist/
 - Services: https://capfroggy.github.io/replyflow-kit/services/
 - Full-stack developer services: https://capfroggy.github.io/replyflow-kit/services/full-stack-developer-automation/
 - Web tool / automation scope builder: https://capfroggy.github.io/replyflow-kit/services/web-tool-automation-landing-page/
@@ -43,6 +44,7 @@ development, automation, follow-up workflows, and practical AI-assisted tools.
 ## Paid Offers
 
 - ReplyFlow Kit: $19, with cleaning, plumbing, HVAC, roofing, lawn care, and invoice collection packs
+- Website bug report checklist: free bug handoff resource for small website, mobile, JavaScript, form, and API fixes
 - WhatsApp Follow-up Mini Pack: $9
 - Developer services: $49+ fixed-scope web, automation, integration, workflow, CRM, SMS, Google Workspace, and copy deliverables
 - Full-stack developer services: $49+ web apps, automation scripts, API integrations, dashboards, Google Sheets, PDF extraction, and CRM workflows

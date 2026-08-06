@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Website Bug Report Checklist | ReplyFlow Kit</title>
+    <meta
+      name="description"
+      content="Free website bug report checklist and request generator for mobile layout bugs, JavaScript errors, form issues, API failures, and small code fixes."
+    />
+    <meta property="og:title" content="Website Bug Report Checklist" />
+    <meta
+      property="og:description"
+      content="Prepare a clear bug report before hiring a developer for a small website, mobile, JavaScript, form, or API fix."
+    />
+    <meta property="og:image" content="../../assets/upwork-ai-automation-cover.png" />
+    <link rel="stylesheet" href="../../assets/site.css" />
+    <style>
+      .checklist {
+        display: grid;
+        gap: 12px;
+        margin-top: 28px;
+      }
+
+      .check-item {
+        display: grid;
+        grid-template-columns: auto minmax(0, 1fr);
+        gap: 12px;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: #fff;
+        padding: 18px;
+      }
+
+      .check-item strong {
+        color: var(--coral);
+      }
+
+      .check-item p {
+        margin: 6px 0 0;
+        color: var(--muted);
+        line-height: 1.55;
+      }
+
+      .report-builder {
+        display: grid;
+        grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+        gap: 12px;
+        margin-top: 28px;
+      }
+
+      .builder-form {
+        display: grid;
+        gap: 18px;
+      }
+
+      .report-output {
+        min-height: 330px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 18px;
+      }
+
+      .brief-box {
+        min-height: 240px;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: #f9fbfc;
+        padding: 18px;
+        color: #26373c;
+        line-height: 1.55;
+        white-space: pre-wrap;
+      }
+
+      select {
+        min-height: 44px;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: rgba(246, 248, 251, 0.86);
+        color: var(--foreground);
+        font: inherit;
+        padding: 0 12px;
+      }
+
+      @media (max-width: 820px) {
+        .report-builder {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="../../">ReplyFlow Kit</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="../">Resources</a>
+        <a href="../../services/">Services</a>
+        <a href="../../services/bug-fix-code-review/">Bug fix</a>
+        <a href="../../follow-up-message-generator/">Generator</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section">
+        <p class="eyebrow">Free developer handoff resource</p>
+        <h1>Website bug report checklist.</h1>
+        <p class="lede">
+          Use this before asking for a mobile layout fix, JavaScript bug,
+          WordPress or Shopify issue, failed form submission, API problem, or
+          small code review. A clear report makes a small fixed-scope fix much
+          easier to price and deliver.
+        </p>
+        <div class="actions">
+          <a class="button primary" href="#report-builder">Build bug report</a>
+          <a class="button secondary" href="../../services/bug-fix-code-review/">Hire a bug fix</a>
+          <a
+            class="button secondary"
+            href="https://www.upwork.com/services/product/development-it-a-web-tool-automation-or-landing-page-for-your-business-2085462295735290357?ref=project_share"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open Upwork
+          </a>
+        </div>
+      </section>
+
+      <section class="section">
+        <p class="eyebrow">Checklist</p>
+        <h2>Collect the useful details first.</h2>
+        <div class="checklist">
+          <article class="check-item">
+            <strong>1.</strong>
+            <div>
+              <strong>Write the exact URL or screen.</strong>
+              <p>Include the page, admin area, product, form, dashboard, or component where the bug appears.</p>
+            </div>
+          </article>
+          <article class="check-item">
+            <strong>2.</strong>
+            <div>
+              <strong>Describe what happens now.</strong>
+              <p>Use observable language: button does nothing, menu overlaps, form sends empty fields, upload fails, page scrolls sideways.</p>
+            </div>
+          </article>
+          <article class="check-item">
+            <strong>3.</strong>
+            <div>
+              <strong>Describe the expected result.</strong>
+              <p>State what should happen after the fix, not just what is broken.</p>
+            </div>
+          </article>
+          <article class="check-item">
+            <strong>4.</strong>
+            <div>
+              <strong>Add reproduction steps.</strong>
+              <p>List the fewest clicks or inputs needed to trigger the issue.</p>
+            </div>
+          </article>
+          <article class="check-item">
+            <strong>5.</strong>
+            <div>
+              <strong>Share safe evidence.</strong>
+              <p>Screenshots, browser name, device size, console error, and redacted test data are useful. Avoid passwords, customer data, private API keys, and payment details.</p>
+            </div>
+          </article>
+          <article class="check-item">
+            <strong>6.</strong>
+            <div>
+              <strong>Name the stack or platform.</strong>
+              <p>Examples: WordPress, Shopify, Webflow, React, Next.js, plain HTML/CSS/JS, PHP, Google Sheets, Formspree, Zapier, n8n.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="report-builder">
+        <p class="eyebrow">Report generator</p>
+        <h2>Copy a ready-to-send bug report.</h2>
+        <div class="report-builder">
+          <article class="panel builder-form">
+            <div class="field">
+              <label for="bug-type">Bug type</label>
+              <select id="bug-type">
+                <option>Mobile layout issue</option>
+                <option>JavaScript error</option>
+                <option>React or Next.js bug</option>
+                <option>WordPress front-end bug</option>
+                <option>Shopify theme/app bug</option>
+                <option>Form submission issue</option>
+                <option>API or webhook failure</option>
+                <option>Code review request</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="page-url">URL or screen</label>
+              <input id="page-url" type="text" value="https://example.com/contact" />
+            </div>
+            <div class="field">
+              <label for="current-behavior">Current behavior</label>
+              <input id="current-behavior" type="text" value="the submit button does not send the form on mobile" />
+            </div>
+            <div class="field">
+              <label for="expected-behavior">Expected behavior</label>
+              <input id="expected-behavior" type="text" value="the form should submit and show a success message" />
+            </div>
+            <div class="field">
+              <label for="steps">Steps to reproduce</label>
+              <textarea id="steps">1. Open the page on a phone
+2. Fill in the contact form
+3. Tap submit
+4. Nothing happens</textarea>
+            </div>
+            <div class="field">
+              <label for="evidence">Safe evidence available</label>
+              <input id="evidence" type="text" value="screenshot, browser console error, device/browser, redacted code snippet" />
+            </div>
+          </article>
+
+          <article class="panel report-output">
+            <div>
+              <p class="eyebrow">Generated report</p>
+              <div class="brief-box" id="report-output" aria-live="polite"></div>
+            </div>
+            <div class="actions">
+              <button class="button primary" type="button" id="copy-report">Copy report</button>
+              <a class="button secondary" href="../../services/bug-fix-code-review/">Hire fix</a>
+              <a class="button secondary" href="../../services/request/">Request on GitHub</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="panel">
+          <p class="eyebrow">Need the fix done?</p>
+          <h2>Use the checklist, then request a small scope.</h2>
+          <p>
+            The bug fix and code review service starts with a focused review or
+            small patch. Payment can stay inside Upwork for marketplace work,
+            or direct clients can request a scope before using PayPal.
+          </p>
+          <div class="actions">
+            <a class="button primary" href="../../services/bug-fix-code-review/">View bug fix service</a>
+            <a
+              class="button secondary"
+              href="https://www.paypal.com/paypalme/AMEZQUITASALINAS/49USD"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Pay $49 deposit
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="section">
+        <p>ReplyFlow Kit. Free templates, developer services, and manual handoff after confirmed payment.</p>
+      </div>
+    </footer>
+    <script>
+      const reportFields = {
+        type: document.querySelector("#bug-type"),
+        url: document.querySelector("#page-url"),
+        current: document.querySelector("#current-behavior"),
+        expected: document.querySelector("#expected-behavior"),
+        steps: document.querySelector("#steps"),
+        evidence: document.querySelector("#evidence"),
+        output: document.querySelector("#report-output"),
+        copy: document.querySelector("#copy-report"),
+      };
+
+      function renderReport() {
+        reportFields.output.textContent =
+          `Bug type: ${reportFields.type.value}\n\n` +
+          `URL or screen: ${reportFields.url.value}\n\n` +
+          `Current behavior: ${reportFields.current.value}\n\n` +
+          `Expected behavior: ${reportFields.expected.value}\n\n` +
+          `Steps to reproduce:\n${reportFields.steps.value}\n\n` +
+          `Safe evidence I can share: ${reportFields.evidence.value}\n\n` +
+          "Please identify the likely cause, estimate the smallest useful fix, and include notes on what changed and what should be tested.";
+      }
+
+      document.querySelectorAll("input, select, textarea").forEach((control) => {
+        control.addEventListener("input", renderReport);
+        control.addEventListener("change", renderReport);
+      });
+
+      reportFields.copy.addEventListener("click", async () => {
+        await navigator.clipboard.writeText(reportFields.output.textContent);
+        reportFields.copy.textContent = "Copied";
+        window.setTimeout(() => {
+          reportFields.copy.textContent = "Copy report";
+        }, 1600);
+      });
+
+      renderReport();
+    </script>
+  </body>
+</html>

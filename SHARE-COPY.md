@@ -33,6 +33,9 @@ https://capfroggy.github.io/replyflow-kit/follow-up-message-generator/
 Template library:
 https://capfroggy.github.io/replyflow-kit/resources/
 
+Website bug report checklist:
+https://capfroggy.github.io/replyflow-kit/resources/website-bug-report-checklist/
+
 Services:
 https://capfroggy.github.io/replyflow-kit/services/
 
@@ -65,6 +68,9 @@ https://capfroggy.github.io/replyflow-kit/services/web-tool-automation-landing-p
 
 Bug fix and code review service:
 https://capfroggy.github.io/replyflow-kit/services/bug-fix-code-review/
+
+Website bug report checklist:
+https://capfroggy.github.io/replyflow-kit/resources/website-bug-report-checklist/
 
 Bug fix and code review issue:
 https://github.com/capfroggy/replyflow-kit/issues/17
