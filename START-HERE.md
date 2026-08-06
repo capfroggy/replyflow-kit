@@ -6,17 +6,17 @@ recipes.
 
 ## Useful Free Links
 
-- Public site: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.4-niche-samples/
-- Free script sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.4-niche-samples/sample/
-- Free generator: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.4-niche-samples/follow-up-message-generator/
-- Niche samples: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.4-niche-samples/niches/
-- Spanish WhatsApp offer: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.4-niche-samples/es/kit-whatsapp-negocios/
-- Latest release: https://github.com/capfroggy/replyflow-kit/releases/tag/v0.4-niche-samples
+- Public site: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.5-github-primary/
+- Free script sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.5-github-primary/sample/
+- Free generator: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.5-github-primary/follow-up-message-generator/
+- Niche samples: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.5-github-primary/niches/
+- Spanish WhatsApp offer: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.5-github-primary/es/kit-whatsapp-negocios/
+- Latest release: https://github.com/capfroggy/replyflow-kit/releases/tag/v0.5-github-primary
 - Feedback discussion: https://github.com/capfroggy/replyflow-kit/discussions/1
 
 ## Paid Offers
 
-- ReplyFlow Kit: $19
+- ReplyFlow Kit: $19, with cleaning, plumbing, and invoice collection packs
 - WhatsApp Follow-up Mini Pack: $9
 - ReplyFlow Custom Setup: $49
 
