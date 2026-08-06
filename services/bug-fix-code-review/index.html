@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Small Bug Fix and Code Review Developer | ReplyFlow Kit</title>
+    <meta
+      name="description"
+      content="Hire a developer for small website bug fixes, mobile responsiveness, JavaScript issues, API errors, code reviews, and handoff notes."
+    />
+    <meta property="og:title" content="Small Bug Fix and Code Review Developer" />
+    <meta
+      property="og:description"
+      content="A focused service page for small bugs, UI fixes, mobile issues, API errors, and practical code review handoffs."
+    />
+    <meta property="og:image" content="../../assets/upwork-ai-automation-cover.png" />
+    <link rel="stylesheet" href="../../assets/site.css" />
+    <style>
+      .fix-hero {
+        min-height: 68vh;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid var(--line);
+        background:
+          linear-gradient(90deg, rgba(246, 248, 251, 0.98) 0%, rgba(246, 248, 251, 0.9) 50%, rgba(246, 248, 251, 0.18) 100%),
+          url("../../assets/upwork-ai-automation-cover.png") center right / cover no-repeat;
+      }
+
+      .triage-builder {
+        display: grid;
+        grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+        gap: 12px;
+        margin-top: 28px;
+      }
+
+      .triage-form {
+        display: grid;
+        gap: 18px;
+      }
+
+      .triage-output {
+        min-height: 330px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 18px;
+      }
+
+      .brief-box {
+        min-height: 230px;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: #f9fbfc;
+        padding: 18px;
+        color: #26373c;
+        line-height: 1.55;
+        white-space: pre-wrap;
+      }
+
+      .check-row {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 8px;
+      }
+
+      .check-row label {
+        min-height: 42px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: #fff;
+        padding: 10px 12px;
+        color: #25363b;
+        font-weight: 700;
+      }
+
+      .check-row input {
+        accent-color: var(--teal);
+      }
+
+      @media (max-width: 860px) {
+        .fix-hero {
+          min-height: 62vh;
+          background:
+            linear-gradient(180deg, rgba(246, 248, 251, 0.98) 0%, rgba(246, 248, 251, 0.92) 100%),
+            url("../../assets/upwork-ai-automation-cover.png") center / cover no-repeat;
+        }
+
+        .triage-builder,
+        .check-row {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="../../">ReplyFlow Kit</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="../../follow-up-message-generator/">Generator</a>
+        <a href="../../resources/">Resources</a>
+        <a href="../">Services</a>
+        <a href="../../sample/">Free sample</a>
+        <a href="../../niches/">Niches</a>
+        <a href="../../es/">Espanol</a>
+      </nav>
+    </header>
+
+    <section class="fix-hero" aria-label="Small bug fix and code review service">
+      <div class="hero-inner">
+        <p class="eyebrow">Small bug fix and code review service</p>
+        <h1>Fix one website, app, or workflow bug without turning it into a big project.</h1>
+        <p class="lede">
+          A focused path for mobile layout bugs, JavaScript errors, React/Next
+          issues, form/API failures, WordPress or Shopify front-end problems,
+          and quick code review notes.
+        </p>
+        <div class="actions">
+          <a
+            class="button primary"
+            href="https://www.upwork.com/services/product/development-it-a-web-tool-automation-or-landing-page-for-your-business-2085462295735290357?ref=project_share"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Hire on Upwork
+          </a>
+          <a class="button secondary" href="#triage">Build a bug brief</a>
+          <a class="button secondary" href="../request/">Request direct scope</a>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <section class="section" id="triage">
+        <p class="eyebrow">Bug brief builder</p>
+        <h2>Make the first message specific enough to act on.</h2>
+        <div class="triage-builder">
+          <article class="panel triage-form">
+            <div class="field">
+              <label for="bug-area">Bug area</label>
+              <select id="bug-area">
+                <option value="mobile responsiveness issue">Mobile responsiveness</option>
+                <option value="JavaScript or React bug">JavaScript / React</option>
+                <option value="API or webhook issue">API / webhook</option>
+                <option value="form submission issue">Form submission</option>
+                <option value="WordPress or Shopify front-end issue">WordPress / Shopify</option>
+                <option value="code review and fix plan">Code review</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="tech-stack">Current stack or platform</label>
+              <input id="tech-stack" type="text" value="HTML, CSS, JavaScript" />
+            </div>
+            <div class="field">
+              <label for="visible-problem">Visible problem</label>
+              <input id="visible-problem" type="text" value="the layout breaks on mobile and one button does not respond" />
+            </div>
+            <div class="field">
+              <label for="expected-result">Expected result</label>
+              <input id="expected-result" type="text" value="the page works on mobile and the button completes the intended action" />
+            </div>
+            <div class="field">
+              <label>What can be shared safely</label>
+              <div class="check-row">
+                <label><input type="checkbox" value="public URL" checked /> Public URL</label>
+                <label><input type="checkbox" value="screenshots or screen recording" checked /> Screenshots</label>
+                <label><input type="checkbox" value="browser console error" /> Console error</label>
+                <label><input type="checkbox" value="redacted source files" /> Redacted files</label>
+                <label><input type="checkbox" value="test login created for review" /> Test login</label>
+                <label><input type="checkbox" value="steps to reproduce" checked /> Steps</label>
+              </div>
+            </div>
+            <div class="field">
+              <label for="package">Starting package</label>
+              <select id="package">
+                <option value="$25 quick review with a fix plan">$25 review</option>
+                <option value="$49 small bug fix or service deposit" selected>$49 small fix</option>
+                <option value="$99 bug fix plus handoff notes">$99 fix and docs</option>
+                <option value="$149+ UI/API debugging session or broader patch">$149+ larger patch</option>
+              </select>
+            </div>
+          </article>
+
+          <article class="panel triage-output">
+            <div>
+              <p class="eyebrow">Generated request</p>
+              <div class="brief-box" id="brief-output" aria-live="polite"></div>
+            </div>
+            <div class="actions">
+              <button class="button primary" type="button" id="copy-brief">Copy brief</button>
+              <a
+                class="button secondary"
+                href="https://www.upwork.com/services/product/development-it-a-web-tool-automation-or-landing-page-for-your-business-2085462295735290357?ref=project_share"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Open Upwork
+              </a>
+              <a class="button secondary" href="../request/">GitHub request</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <p class="eyebrow">Common fixes</p>
+        <h2>Small scopes with clear handoff.</h2>
+        <div class="grid">
+          <article class="card">
+            <span>Mobile layout fix</span>
+            <p>Responsive CSS, overflow, tap targets, menu behavior, Safari/Chrome mobile checks, and before/after notes.</p>
+          </article>
+          <article class="card">
+            <span>JavaScript or React bug</span>
+            <p>Broken state, button handlers, template behavior, conditional rendering, build errors, or browser console failures.</p>
+          </article>
+          <article class="card">
+            <span>API or form issue</span>
+            <p>Request mapping, missing fields, failed submissions, response handling, auth boundary notes, and safe test payloads.</p>
+          </article>
+          <article class="card">
+            <span>Code review</span>
+            <p>Find the likely cause, identify risk, propose the smallest patch, and document what should be tested next.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="split">
+          <article class="panel">
+            <p class="eyebrow">Safe intake</p>
+            <h2>No private secrets needed up front.</h2>
+            <p>
+              The first pass can use public URLs, screenshots, browser console
+              errors, redacted code, and reproduction steps. Passwords, API
+              keys, customer lists, and payment data should stay out of the
+              first request.
+            </p>
+          </article>
+          <article class="panel">
+            <p class="eyebrow">Payment path</p>
+            <h2>Marketplace escrow or direct deposit.</h2>
+            <p>
+              If the work starts on Upwork or Freelancer, payment should stay
+              inside that platform. Direct work can start after a clear scope
+              and payment through <strong>paypal.me/AMEZQUITASALINAS</strong>
+              or <strong>alejandro.amezquita@alumnos.udg.mx</strong>.
+            </p>
+            <div class="actions">
+              <a
+                class="button primary"
+                href="https://www.upwork.com/services/product/development-it-a-web-tool-automation-or-landing-page-for-your-business-2085462295735290357?ref=project_share"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Hire on Upwork
+              </a>
+              <a
+                class="button secondary"
+                href="https://www.paypal.com/paypalme/AMEZQUITASALINAS/49USD"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Pay $49 deposit
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="section">
+        <p>ReplyFlow Kit. Small bug fixes, code reviews, practical automation, and manual handoff after confirmed payment.</p>
+      </div>
+    </footer>
+    <script>
+      const form = {
+        area: document.querySelector("#bug-area"),
+        stack: document.querySelector("#tech-stack"),
+        problem: document.querySelector("#visible-problem"),
+        expected: document.querySelector("#expected-result"),
+        package: document.querySelector("#package"),
+        output: document.querySelector("#brief-output"),
+        copy: document.querySelector("#copy-brief"),
+      };
+
+      function safeInputs() {
+        return Array.from(document.querySelectorAll(".check-row input:checked")).map((item) => item.value);
+      }
+
+      function renderBrief() {
+        const intake = safeInputs();
+        const intakeText = intake.length ? intake.join(", ") : "a short written description";
+        form.output.textContent =
+          `I need help with a ${form.area.value}.\n\n` +
+          `Stack/platform: ${form.stack.value}.\n\n` +
+          `Problem: ${form.problem.value}.\n\n` +
+          `Expected result: ${form.expected.value}.\n\n` +
+          `I can safely share: ${intakeText}.\n\n` +
+          `Best first package: ${form.package.value}.\n\n` +
+          "Please identify the likely cause, make the smallest practical fix if possible, and include short notes on what changed and what should be tested.";
+      }
+
+      document.querySelectorAll("input, select").forEach((control) => {
+        control.addEventListener("input", renderBrief);
+        control.addEventListener("change", renderBrief);
+      });
+
+      form.copy.addEventListener("click", async () => {
+        await navigator.clipboard.writeText(form.output.textContent);
+        form.copy.textContent = "Copied";
+        window.setTimeout(() => {
+          form.copy.textContent = "Copy brief";
+        }, 1600);
+      });
+
+      renderBrief();
+    </script>
+  </body>
+</html>

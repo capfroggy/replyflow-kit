@@ -63,6 +63,9 @@ https://capfroggy.github.io/replyflow-kit/services/ai-lead-follow-up-automation/
 Web tool / automation scope builder:
 https://capfroggy.github.io/replyflow-kit/services/web-tool-automation-landing-page/
 
+Bug fix and code review service:
+https://capfroggy.github.io/replyflow-kit/services/bug-fix-code-review/
+
 Web tool scope builder issue:
 https://github.com/capfroggy/replyflow-kit/issues/16
 
@@ -124,6 +127,9 @@ https://capfroggy.github.io/replyflow-kit/services/full-stack-developer-automati
 
 Web tool / automation scope builder:
 https://capfroggy.github.io/replyflow-kit/services/web-tool-automation-landing-page/
+
+Bug fix and code review service:
+https://capfroggy.github.io/replyflow-kit/services/bug-fix-code-review/
 
 CSV to spreadsheet automation sample:
 https://capfroggy.github.io/replyflow-kit/services/csv-spreadsheet-automation-sample/
