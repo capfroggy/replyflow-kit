@@ -44,6 +44,9 @@ https://github.com/capfroggy/replyflow-kit/issues/13
 CSV to spreadsheet automation sample:
 https://capfroggy.github.io/replyflow-kit/services/csv-spreadsheet-automation-sample/
 
+CSV automation sample issue:
+https://github.com/capfroggy/replyflow-kit/issues/14
+
 AI lead automation service:
 https://capfroggy.github.io/replyflow-kit/services/ai-lead-follow-up-automation/
 

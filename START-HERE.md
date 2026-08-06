@@ -14,6 +14,7 @@ development, automation, follow-up workflows, and practical AI-assisted tools.
 - AI lead automation service: https://capfroggy.github.io/replyflow-kit/services/ai-lead-follow-up-automation/
 - Full-stack developer services issue: https://github.com/capfroggy/replyflow-kit/issues/13
 - CSV to spreadsheet automation sample: https://capfroggy.github.io/replyflow-kit/services/csv-spreadsheet-automation-sample/
+- CSV automation sample issue: https://github.com/capfroggy/replyflow-kit/issues/14
 - Email setup sample: https://capfroggy.github.io/replyflow-kit/services/email-marketing-setup-sample/
 - CRM audit sample: https://capfroggy.github.io/replyflow-kit/services/crm-workflow-audit-sample/
 - Invoice workflow sample: https://capfroggy.github.io/replyflow-kit/services/invoice-reminder-workflow-sample/
@@ -29,7 +30,7 @@ development, automation, follow-up workflows, and practical AI-assisted tools.
 - Service request form: https://github.com/capfroggy/replyflow-kit/issues/new?template=service-request.yml
 - Niche samples: https://capfroggy.github.io/replyflow-kit/niches/
 - Spanish WhatsApp offer: https://capfroggy.github.io/replyflow-kit/es/kit-whatsapp-negocios/
-- Latest release: https://github.com/capfroggy/replyflow-kit/releases/tag/v0.17-full-stack-developer-services
+- Latest release: https://github.com/capfroggy/replyflow-kit/releases/tag/v0.18-csv-spreadsheet-automation-sample
 - Feedback discussion: https://github.com/capfroggy/replyflow-kit/discussions/1
 
 ## Paid Offers

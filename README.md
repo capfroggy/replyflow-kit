@@ -17,6 +17,7 @@ paid product files are not published here.
 - AI lead automation service: https://capfroggy.github.io/replyflow-kit/services/ai-lead-follow-up-automation/
 - Full-stack developer services issue: https://github.com/capfroggy/replyflow-kit/issues/13
 - CSV to spreadsheet automation sample: https://capfroggy.github.io/replyflow-kit/services/csv-spreadsheet-automation-sample/
+- CSV automation sample issue: https://github.com/capfroggy/replyflow-kit/issues/14
 - Email setup sample deliverable: https://capfroggy.github.io/replyflow-kit/services/email-marketing-setup-sample/
 - CRM audit sample deliverable: https://capfroggy.github.io/replyflow-kit/services/crm-workflow-audit-sample/
 - Invoice workflow sample deliverable: https://capfroggy.github.io/replyflow-kit/services/invoice-reminder-workflow-sample/
@@ -81,7 +82,7 @@ Primary GitHub Pages public URL:
 
 Versioned GitHub release:
 
-- https://github.com/capfroggy/replyflow-kit/releases/tag/v0.17-full-stack-developer-services
+- https://github.com/capfroggy/replyflow-kit/releases/tag/v0.18-csv-spreadsheet-automation-sample
 
 Do not upload the paid product zip to a public repository. Send product files
 manually after confirming payment.
