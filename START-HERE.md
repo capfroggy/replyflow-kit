@@ -6,11 +6,12 @@ recipes.
 
 ## Useful Free Links
 
-- Public site: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.3-visual/
-- Free script sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.3-visual/sample/
-- Free generator: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.3-visual/follow-up-message-generator/
-- Spanish WhatsApp offer: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.3-visual/es/kit-whatsapp-negocios/
-- Latest release: https://github.com/capfroggy/replyflow-kit/releases/tag/v0.3-visual
+- Public site: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.4-niche-samples/
+- Free script sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.4-niche-samples/sample/
+- Free generator: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.4-niche-samples/follow-up-message-generator/
+- Niche samples: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.4-niche-samples/niches/
+- Spanish WhatsApp offer: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.4-niche-samples/es/kit-whatsapp-negocios/
+- Latest release: https://github.com/capfroggy/replyflow-kit/releases/tag/v0.4-niche-samples
 - Feedback discussion: https://github.com/capfroggy/replyflow-kit/discussions/1
 
 ## Paid Offers

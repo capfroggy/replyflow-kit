@@ -9,10 +9,11 @@ paid product files are not published here.
 
 ## Quick links
 
-- Temporary public site: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.3-visual/
-- Free script sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.3-visual/sample/
-- Free generator: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.3-visual/follow-up-message-generator/
-- Spanish WhatsApp offer: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.3-visual/es/kit-whatsapp-negocios/
+- Temporary public site: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.4-niche-samples/
+- Free script sample: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.4-niche-samples/sample/
+- Free generator: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.4-niche-samples/follow-up-message-generator/
+- Niche samples: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.4-niche-samples/niches/
+- Spanish WhatsApp offer: https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.4-niche-samples/es/kit-whatsapp-negocios/
 - Feedback discussion: https://github.com/capfroggy/replyflow-kit/discussions/1
 - Start here: https://github.com/capfroggy/replyflow-kit/blob/main/START-HERE.md
 - Share copy: https://github.com/capfroggy/replyflow-kit/blob/main/SHARE-COPY.md
@@ -22,6 +23,7 @@ Preview image: `assets/replyflow-preview.jpg`
 ## Public offers
 
 - Free sample: lead, quote, invoice, and WhatsApp scripts
+- Free niche samples: cleaning, plumbing, and invoice reminders
 - ReplyFlow Kit: $19
 - WhatsApp Follow-up Mini Pack: $9
 - ReplyFlow Custom Setup: $49
@@ -49,8 +51,8 @@ Primary GitHub Pages URL:
 
 Temporary GitHub-backed URL while GitHub Pages is delayed:
 
-- https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.3-visual/
-- https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.3-visual/sample/
+- https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.4-niche-samples/
+- https://rawcdn.githack.com/capfroggy/replyflow-kit/v0.4-niche-samples/sample/
 
 Do not upload the paid product zip to a public repository. Send product files
 manually after confirming payment.
