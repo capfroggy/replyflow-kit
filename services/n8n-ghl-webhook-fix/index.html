@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>n8n and GoHighLevel Webhook Fix Developer | ReplyFlow Kit</title>
+    <meta
+      name="description"
+      content="Hire a developer to fix n8n workflows, GoHighLevel custom fields, webhook payload mapping, SMS/email automation bugs, and API handoffs."
+    />
+    <meta property="og:title" content="n8n and GoHighLevel Webhook Fix Developer" />
+    <meta
+      property="og:description"
+      content="A focused service page for n8n workflow fixes, GoHighLevel field mapping, webhook debugging, and automation handoff notes."
+    />
+    <meta property="og:image" content="../../assets/upwork-ai-automation-cover.png" />
+    <link rel="stylesheet" href="../../assets/site.css" />
+    <style>
+      .automation-hero {
+        min-height: 68vh;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid var(--line);
+        background:
+          linear-gradient(90deg, rgba(246, 248, 251, 0.98) 0%, rgba(246, 248, 251, 0.91) 48%, rgba(246, 248, 251, 0.2) 100%),
+          url("../../assets/upwork-ai-automation-cover.png") center right / cover no-repeat;
+      }
+
+      .mapper {
+        display: grid;
+        grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+        gap: 12px;
+        margin-top: 28px;
+      }
+
+      .mapper-form {
+        display: grid;
+        gap: 18px;
+      }
+
+      .mapper-output {
+        min-height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 18px;
+      }
+
+      .brief-box {
+        min-height: 255px;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: #f9fbfc;
+        padding: 18px;
+        color: #26373c;
+        line-height: 1.55;
+        white-space: pre-wrap;
+      }
+
+      select {
+        min-height: 44px;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: rgba(246, 248, 251, 0.86);
+        color: var(--foreground);
+        font: inherit;
+        padding: 0 12px;
+      }
+
+      .mini-list {
+        display: grid;
+        gap: 10px;
+        margin-top: 18px;
+      }
+
+      .mini-list li {
+        margin-top: 0;
+      }
+
+      @media (max-width: 860px) {
+        .automation-hero {
+          min-height: 62vh;
+          background:
+            linear-gradient(180deg, rgba(246, 248, 251, 0.98) 0%, rgba(246, 248, 251, 0.92) 100%),
+            url("../../assets/upwork-ai-automation-cover.png") center / cover no-repeat;
+        }
+
+        .mapper {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="../../">ReplyFlow Kit</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="../">Services</a>
+        <a href="../../resources/">Resources</a>
+        <a href="../bug-fix-code-review/">Bug fix</a>
+        <a href="../web-tool-automation-landing-page/">Scope builder</a>
+      </nav>
+    </header>
+
+    <section class="automation-hero" aria-label="n8n and GoHighLevel webhook service">
+      <div class="hero-inner">
+        <p class="eyebrow">n8n, GoHighLevel, webhook, and field-mapping fixes</p>
+        <h1>Fix the broken handoff between forms, webhooks, n8n, and GoHighLevel.</h1>
+        <p class="lede">
+          Focused debugging for n8n workflows, GoHighLevel custom fields,
+          merge tags, inbound webhooks, lead source tracking, SMS/email
+          automation, calendar routing, and API payload mapping.
+        </p>
+        <div class="actions">
+          <a
+            class="button primary"
+            href="https://www.upwork.com/services/product/development-it-a-web-tool-automation-or-landing-page-for-your-business-2085462295735290357?ref=project_share"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Hire on Upwork
+          </a>
+          <a class="button secondary" href="#mapper">Build fix brief</a>
+          <a class="button secondary" href="../request/">Request direct scope</a>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <section class="section" id="mapper">
+        <p class="eyebrow">Webhook fix brief</p>
+        <h2>Describe the failing automation in a way a developer can debug.</h2>
+        <div class="mapper">
+          <article class="panel mapper-form">
+            <div class="field">
+              <label for="platform">Primary platform</label>
+              <select id="platform">
+                <option>n8n workflow</option>
+                <option>GoHighLevel workflow</option>
+                <option>Make.com or Zapier handoff</option>
+                <option>Website form to webhook</option>
+                <option>Calendar or booking automation</option>
+                <option>SMS or email automation</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="source">Source event</label>
+              <input id="source" type="text" value="website form submission" />
+            </div>
+            <div class="field">
+              <label for="destination">Destination</label>
+              <input id="destination" type="text" value="GoHighLevel contact custom fields" />
+            </div>
+            <div class="field">
+              <label for="broken">What is broken</label>
+              <input id="broken" type="text" value="one custom field is not appearing in the workflow or merge tag output" />
+            </div>
+            <div class="field">
+              <label for="expected">Expected result</label>
+              <input id="expected" type="text" value="the field should map to the contact record and appear correctly in SMS/email automation" />
+            </div>
+            <div class="field">
+              <label for="evidence">Safe evidence available</label>
+              <textarea id="evidence">Redacted sample payload
+Screenshot of the failing node or workflow step
+Custom field name and expected key
+Test contact or dummy booking
+Error log or execution ID if available</textarea>
+            </div>
+            <div class="field">
+              <label for="package">Starting package</label>
+              <select id="package">
+                <option value="$25 triage with likely root cause">$25 triage</option>
+                <option value="$49 small mapping or webhook fix" selected>$49 small fix</option>
+                <option value="$99 workflow fix plus test notes">$99 fix and test notes</option>
+                <option value="$149+ multi-step automation audit and repair">$149+ audit and repair</option>
+              </select>
+            </div>
+          </article>
+
+          <article class="panel mapper-output">
+            <div>
+              <p class="eyebrow">Generated brief</p>
+              <div class="brief-box" id="brief-output" aria-live="polite"></div>
+            </div>
+            <div class="actions">
+              <button class="button primary" type="button" id="copy-brief">Copy brief</button>
+              <a
+                class="button secondary"
+                href="https://www.upwork.com/services/product/development-it-a-web-tool-automation-or-landing-page-for-your-business-2085462295735290357?ref=project_share"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Open Upwork
+              </a>
+              <a class="button secondary" href="../request/">GitHub request</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <p class="eyebrow">Common fixes</p>
+        <h2>High-friction automation bugs that can start small.</h2>
+        <div class="grid">
+          <article class="card">
+            <span>n8n webhook execution</span>
+            <p>Trace payload shape, node input/output, missing fields, retries, status codes, and final success evidence.</p>
+          </article>
+          <article class="card">
+            <span>GoHighLevel custom fields</span>
+            <p>Check field object type, field key, custom values, workflow trigger context, and merge-tag output.</p>
+          </article>
+          <article class="card">
+            <span>SMS/email automation repair</span>
+            <p>Fix bad merge tags, incorrect HTML in SMS, broken triggers, wrong appointment context, or stale contact data.</p>
+          </article>
+          <article class="card">
+            <span>Lead source tracking</span>
+            <p>Map source parameters, booking origin, pipeline stage, contact fields, and notification text without losing attribution.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="split">
+          <article class="panel">
+            <p class="eyebrow">First checks</p>
+            <h2>When a GHL custom field is missing.</h2>
+            <ul class="mini-list">
+              <li>Confirm the field exists on the correct object, usually Contact, not Opportunity or a nested form-only field.</li>
+              <li>Confirm the workflow step is using the exact custom field key or merge tag, not just the display label.</li>
+              <li>Use a dummy contact or booking to test the trigger context before changing active automations.</li>
+            </ul>
+          </article>
+          <article class="panel">
+            <p class="eyebrow">Safe intake</p>
+            <h2>No secrets needed for first review.</h2>
+            <p>
+              Start with redacted payloads, screenshots, field names, expected
+              outputs, sample executions, and test contacts. Keep passwords,
+              API keys, private customer lists, and payment data out of the
+              first request.
+            </p>
+            <div class="actions">
+              <a class="button primary" href="#mapper">Build fix brief</a>
+              <a class="button secondary" href="../bug-fix-code-review/">General bug fix</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="payment">
+        <div class="panel">
+          <p class="eyebrow">Payment path</p>
+          <h2>Use marketplace escrow or a direct fixed-scope deposit.</h2>
+          <p>
+            If the lead starts on Upwork or Freelancer, payment should stay
+            inside that platform. Direct clients can request a clear scope first
+            and then use <strong>paypal.me/AMEZQUITASALINAS</strong> or
+            <strong>alejandro.amezquita@alumnos.udg.mx</strong> after the scope
+            is agreed.
+          </p>
+          <div class="actions">
+            <a
+              class="button primary"
+              href="https://www.upwork.com/services/product/development-it-a-web-tool-automation-or-landing-page-for-your-business-2085462295735290357?ref=project_share"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Hire on Upwork
+            </a>
+            <a
+              class="button secondary"
+              href="https://www.paypal.com/paypalme/AMEZQUITASALINAS/49USD"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Pay $49 deposit
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="section">
+        <p>ReplyFlow Kit. Automation fixes, developer services, and manual handoff after confirmed payment.</p>
+      </div>
+    </footer>
+    <script>
+      const briefFields = {
+        platform: document.querySelector("#platform"),
+        source: document.querySelector("#source"),
+        destination: document.querySelector("#destination"),
+        broken: document.querySelector("#broken"),
+        expected: document.querySelector("#expected"),
+        evidence: document.querySelector("#evidence"),
+        package: document.querySelector("#package"),
+        output: document.querySelector("#brief-output"),
+        copy: document.querySelector("#copy-brief"),
+      };
+
+      function renderBrief() {
+        briefFields.output.textContent =
+          `Platform: ${briefFields.platform.value}\n\n` +
+          `Source event: ${briefFields.source.value}\n\n` +
+          `Destination: ${briefFields.destination.value}\n\n` +
+          `What is broken: ${briefFields.broken.value}\n\n` +
+          `Expected result: ${briefFields.expected.value}\n\n` +
+          `Safe evidence available:\n${briefFields.evidence.value}\n\n` +
+          `Best first package: ${briefFields.package.value}.\n\n` +
+          "Please trace the payload or workflow path, identify the likely root cause, make the smallest safe fix if possible, and document what should be tested before this runs on live contacts.";
+      }
+
+      document.querySelectorAll("input, select, textarea").forEach((control) => {
+        control.addEventListener("input", renderBrief);
+        control.addEventListener("change", renderBrief);
+      });
+
+      briefFields.copy.addEventListener("click", async () => {
+        await navigator.clipboard.writeText(briefFields.output.textContent);
+        briefFields.copy.textContent = "Copied";
+        window.setTimeout(() => {
+          briefFields.copy.textContent = "Copy brief";
+        }, 1600);
+      });
+
+      renderBrief();
+    </script>
+  </body>
+</html>

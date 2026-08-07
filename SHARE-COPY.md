@@ -72,6 +72,9 @@ https://capfroggy.github.io/replyflow-kit/services/web-tool-automation-landing-p
 Bug fix and code review service:
 https://capfroggy.github.io/replyflow-kit/services/bug-fix-code-review/
 
+n8n / GoHighLevel webhook fix service:
+https://capfroggy.github.io/replyflow-kit/services/n8n-ghl-webhook-fix/
+
 Website bug report checklist:
 https://capfroggy.github.io/replyflow-kit/resources/website-bug-report-checklist/
 
@@ -142,6 +145,9 @@ https://capfroggy.github.io/replyflow-kit/services/web-tool-automation-landing-p
 
 Bug fix and code review service:
 https://capfroggy.github.io/replyflow-kit/services/bug-fix-code-review/
+
+n8n / GoHighLevel webhook fix service:
+https://capfroggy.github.io/replyflow-kit/services/n8n-ghl-webhook-fix/
 
 CSV to spreadsheet automation sample:
 https://capfroggy.github.io/replyflow-kit/services/csv-spreadsheet-automation-sample/

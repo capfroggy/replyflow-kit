@@ -18,6 +18,7 @@ development, automation, follow-up workflows, and practical AI-assisted tools.
 - Web tool scope builder issue: https://github.com/capfroggy/replyflow-kit/issues/16
 - Bug fix and code review service: https://capfroggy.github.io/replyflow-kit/services/bug-fix-code-review/
 - Bug fix and code review issue: https://github.com/capfroggy/replyflow-kit/issues/17
+- n8n / GoHighLevel webhook fix service: https://capfroggy.github.io/replyflow-kit/services/n8n-ghl-webhook-fix/
 - AI lead automation service: https://capfroggy.github.io/replyflow-kit/services/ai-lead-follow-up-automation/
 - Full-stack developer services issue: https://github.com/capfroggy/replyflow-kit/issues/13
 - CSV to spreadsheet automation sample: https://capfroggy.github.io/replyflow-kit/services/csv-spreadsheet-automation-sample/
@@ -51,6 +52,7 @@ development, automation, follow-up workflows, and practical AI-assisted tools.
 - Full-stack developer services: $49+ web apps, automation scripts, API integrations, dashboards, Google Sheets, PDF extraction, and CRM workflows
 - Web tool / automation scope builder: client-facing brief generator for the approved Upwork service
 - Bug fix and code review service: $25+ review, $49+ small fixes, and $99+ fix-plus-handoff scopes
+- n8n / GoHighLevel webhook fix service: $25+ triage, $49+ mapping fix, and $99+ workflow fix/test notes
 - AI lead automation service page: fixed-scope Upwork/GitHub request path for intake, CRM updates, follow-up messages, and handoff docs
 - CSV to spreadsheet automation sample: browser-only demo for cleaning imports, normalizing headers, deduping records, previewing rows, and exporting CSV
 - WhatsApp bot classifier sample: Spanish inbound bot demo for message classification, safe replies, priority, inbox routing, and handoff payloads
