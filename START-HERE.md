@@ -19,6 +19,7 @@ development, automation, follow-up workflows, and practical AI-assisted tools.
 - Bug fix and code review service: https://capfroggy.github.io/replyflow-kit/services/bug-fix-code-review/
 - Bug fix and code review issue: https://github.com/capfroggy/replyflow-kit/issues/17
 - n8n / GoHighLevel webhook fix service: https://capfroggy.github.io/replyflow-kit/services/n8n-ghl-webhook-fix/
+- n8n / GoHighLevel webhook fix issue: https://github.com/capfroggy/replyflow-kit/issues/19
 - AI lead automation service: https://capfroggy.github.io/replyflow-kit/services/ai-lead-follow-up-automation/
 - Full-stack developer services issue: https://github.com/capfroggy/replyflow-kit/issues/13
 - CSV to spreadsheet automation sample: https://capfroggy.github.io/replyflow-kit/services/csv-spreadsheet-automation-sample/
@@ -40,7 +41,7 @@ development, automation, follow-up workflows, and practical AI-assisted tools.
 - Service request form: https://github.com/capfroggy/replyflow-kit/issues/new?template=service-request.yml
 - Niche samples: https://capfroggy.github.io/replyflow-kit/niches/
 - Spanish WhatsApp offer: https://capfroggy.github.io/replyflow-kit/es/kit-whatsapp-negocios/
-- Latest release: https://github.com/capfroggy/replyflow-kit/releases/tag/v0.22-bug-report-checklist
+- Latest release: https://github.com/capfroggy/replyflow-kit/releases/tag/v0.23-n8n-ghl-webhook-fix
 - Feedback discussion: https://github.com/capfroggy/replyflow-kit/discussions/1
 
 ## Paid Offers

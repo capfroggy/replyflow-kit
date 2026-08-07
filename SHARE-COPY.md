@@ -75,6 +75,9 @@ https://capfroggy.github.io/replyflow-kit/services/bug-fix-code-review/
 n8n / GoHighLevel webhook fix service:
 https://capfroggy.github.io/replyflow-kit/services/n8n-ghl-webhook-fix/
 
+n8n / GoHighLevel webhook fix issue:
+https://github.com/capfroggy/replyflow-kit/issues/19
+
 Website bug report checklist:
 https://capfroggy.github.io/replyflow-kit/resources/website-bug-report-checklist/
 

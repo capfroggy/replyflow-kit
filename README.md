@@ -22,6 +22,7 @@ paid product files are not published here.
 - Bug fix and code review service: https://capfroggy.github.io/replyflow-kit/services/bug-fix-code-review/
 - Bug fix and code review issue: https://github.com/capfroggy/replyflow-kit/issues/17
 - n8n / GoHighLevel webhook fix service: https://capfroggy.github.io/replyflow-kit/services/n8n-ghl-webhook-fix/
+- n8n / GoHighLevel webhook fix issue: https://github.com/capfroggy/replyflow-kit/issues/19
 - AI lead automation service: https://capfroggy.github.io/replyflow-kit/services/ai-lead-follow-up-automation/
 - Full-stack developer services issue: https://github.com/capfroggy/replyflow-kit/issues/13
 - CSV to spreadsheet automation sample: https://capfroggy.github.io/replyflow-kit/services/csv-spreadsheet-automation-sample/
@@ -97,7 +98,7 @@ Primary GitHub Pages public URL:
 
 Versioned GitHub release:
 
-- https://github.com/capfroggy/replyflow-kit/releases/tag/v0.22-bug-report-checklist
+- https://github.com/capfroggy/replyflow-kit/releases/tag/v0.23-n8n-ghl-webhook-fix
 
 Do not upload the paid product zip to a public repository. Send product files
 manually after confirming payment.
